@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Accommodations & Travel Tips - IEEE YP Summit 2025</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+          height: 70vh;
+          width: 100%;
+          max-height: 600px;
+        }
+        body {
+          margin: 0;
+          font-family: sans-serif;
+        }
+        h2 {
+          text-align: center;
+          margin: 1rem 0;
+        }
+        .icon-label {
+          font-weight: bold;
+          font-size: 14px;
+          color: white;
+          text-align: center;
+          line-height: 28px;
+        }
+    </style>
 </head>
 <body>
 
@@ -24,44 +47,140 @@
 
 <div class="container">
 
-    <h2>Where to Stay</h2>
-    <p>
-        We encourage attendees to book accommodations that best fit their preferences and budget.
-        There is <strong>no official hotel block</strong>, and <strong>hotel accommodations are not included in Summit registration</strong>.
-    </p>
-    <p>
-        New York City and the surrounding metro area offer a wide range of hotel options with excellent public transit access to our venue at 60 Pine Street, NYC.
-    </p>
-    <p>
-        Many attendees choose to stay in <strong>New Jersey</strong> or outer boroughs of NYC to manage costs. The Summit schedule allows plenty of time for daily travel.
-    </p>
+    <div class="section">
+        <h2>Travel Costs</h2>
+        <p>
+            As an IEEE Young Professionals leader, there are potentially several sources of funding available to subsidize or cover your travel, lodging, and registration:
+            <ul>
+                <li>The $300 2025 IEEE Regions 1 and 2 Young Professionals Travel Grant</li>
+                <ul>
+                    Contact us for more information
+                </ul>
+                <li>Your IEEE Section</li>
+                <ul>
+                    <li>Talk to your Section Chair and attend your Section ExCom to inquire</li>
+                </ul>
+                <li>Other IEEE Organizational Units (e.g. your Chapter, Society)</li>
+                <li>Your Employer</li>
+            </ul>
+            If IEEE is funding your attendance, be sure to abide by the <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/travel-expense-reimbursement-guidelines.pdf">Expense Reimbursement Guidelines for IEEE Volunteers.</a>
+        </p>
+        <p>If you are coming to the YP Summit from outside the NYC metropolitan area, here are expected ranges of costs to attend:
+            <table class="travel-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Minimum</th>
+                    <th>Typical</th>
+                    <th>Maximum</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Travel/Lodging Total</td>
+                    <td>$515</td>
+                    <td>$800</td>
+                    <td>$1,365</td>
+                  </tr>
+                  <tr>
+                    <td>Registration</td>
+                    <td>$85</td>
+                    <td>$85</td>
+                    <td>$85</td>
+                  </tr>
+                  <tr>
+                    <td>Anticipated Total</td>
+                    <td>$600</td>
+                    <td>$885</td>
+                    <td>$1,450</td>
+                  </tr>
+                </tbody>
+              </table>  
+        </p>
+    </div>
 
-    <h2>Recommended Areas with Good Transit Access</h2>
+    <div class="section">
+        <h2>How to Get to NYC</h2>
+        <p>
+            NYC is easily accessible from across IEEE Regions 1 and 2:
+            <ul>
+                <li>Direct flights to EWR, JFK, and LGA Airports</li>
+                <li>By Amtrack, Metro-North, NJ Transit, and LIRR</li>
+                <li>By Car</li>
+            </ul>
+            Regardless of how you get to NYC, we recommend using the NYC Subway and NJ Transit to get around. The NYC Subway runs 24/7 and now accepts contactless payment. 
+            If you are coming by car, try to park outside Manhattan either at your hotel, in Long Island City, or New Jersey; parking in Manhattan is expensive and Congestion Pricing is in effect below 60th street. 
+        </p>
+    </div>
 
-    <h3>Jersey City, NJ</h3>
-    <ul>
-        <li>Fast PATH train access to World Trade Center (~5 min walk to venue)</li>
-        <li>Typically offers lower hotel rates than Manhattan</li>
-        <li>Example areas: Exchange Place, Newport</li>
-    </ul>
+    <div class="section">
+        <h2>Where to Stay</h2>
+        <p>
+            We encourage attendees to book accommodations that best fit their preferences and budget.
+            There is <strong>no official hotel block</strong>, and <strong>hotel accommodations are not included in Summit registration</strong>.
+        </p>
+        <p>
+            New York City and the surrounding metro area offer a wide range of hotel options with excellent public transit access to our venue at 60 Pine Street, NYC.
+        </p>
+        <p>
+            Many attendees choose to stay in <strong>New Jersey</strong> or outer boroughs of NYC to manage costs. The Summit schedule allows plenty of time for daily travel.
+        </p>
+    </div>
+    <h2>Recommended Areas</h3>
+    Click the icons to learn more
+    <div class="section", id="map">
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="map.js">
+        </script>
+    
+    </div>
 
-    <h3>Hoboken, NJ</h3>
-    <ul>
-        <li>PATH access to World Trade Center or Midtown</li>
-    </ul>
+    <div class="section">
 
-    <h3>Downtown Brooklyn</h3>
-    <ul>
-        <li>Excellent subway access to lower Manhattan</li>
-        <li>Short subway ride (~10–15 min) to venue</li>
-    </ul>
+        <h4>Jersey City, NJ</h4>
+        <ul>
+            <li>Fast PATH train access to World Trade Center </li>
+            <li>~20 min total, including ~10 min walk to venue</li>
+            <li>Hotel ideas:</li>
+            <ul>
+                <div id="JC-list"></div>
+            </ul>
+        </ul>
+        <h4>Downtown Brooklyn</h4>
+        <ul>
+            <li>Excellent subway access to lower Manhattan</li>
+            <li>Short subway ride (~10–15 min) to venue</li>
+            <li>Hotel ideas:</li>
+            <ul>
+                <div id="Brooklyn-list"></div>
+            </ul>
+        </ul>
+        <h4>Queens (Long Island City)</h4>
+        <ul>
+            <li>Subway R, E, M, and 7 lines to Manhattan</li>
+            <li>Short subway ride (~35–45 min) to venue</li>
+            <li>Many affordable hotel options</li>
+            <li>Hotel ideas:</li>
+            <ul>
+                <div id="LIC-list"></div>
+            </ul>
+        </ul>
+        <h4>Midtown Manhattan</h4>
+        <ul>
+            <li>Potentially more expensive</li>
+            <li>Multiple hotel options</li>
+            <li>Multiple subway options</li>
+            <li>Recommend staying in Midtown/Chelsea near Penn Station if arriving via Amtrak or LIRR</li>
+        </ul>
 
-    <h3>Queens (Long Island City)</h3>
-    <ul>
-        <li>Subway E, M, 7 lines to lower Manhattan</li>
-        <li>Many affordable hotel options</li>
-    </ul>
+    </div>
 
-    <h3>Midtown Manhattan</h3>
-    <ul>
-        <li>Multiple subway
+</div>
+
+<footer>
+    &copy; 2025 IEEE Young Professionals Summit<br>
+    <a href="https://events.vtools.ieee.org/m/487732" target="_blank">Register via IEEE vTools</a> |
+    <a href="travel.html">Accommodations & Travel Tips</a>
+</footer>
+</body>
+</html>

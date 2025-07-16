@@ -59,7 +59,7 @@ header img {
 }
 
 .section {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 footer {
@@ -88,3 +88,55 @@ a:hover {
         padding: 0 0.5rem;
     }
 }
+
+
+  
+h2, h3 {
+    margin: 0.5em 0;
+}
+  
+ul {
+    margin: 0.5em 0;
+    padding-left: 1.2em;
+}
+  
+li {
+    margin-bottom: 0.3em;
+}
+  
+#map {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.travel-table {
+    margin: 1rem auto; /* top/bottom spacing + center alignment */
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .travel-table th, .travel-table td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  .travel-table thead {
+    background-color: #f3f3f3;
+  }
+  
+  .travel-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .leaflet-tooltip.hotel-tooltip {
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+  
