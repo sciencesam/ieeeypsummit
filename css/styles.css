@@ -197,3 +197,23 @@ li {
     justify-content: center;
     gap: 1rem;
 }
+   #map {
+          height: 70vh;
+          width: 100%;
+          max-height: 600px;
+        }
+        body {
+          margin: 0;
+          font-family: sans-serif;
+        }
+        h2 {
+          text-align: center;
+          margin: 1rem 0;
+        }
+        .icon-label {
+          font-weight: bold;
+          font-size: 14px;
+          color: white;
+          text-align: center;
+          line-height: 28px;
+        }
