@@ -1,0 +1,16 @@
+[
+  {
+    "photo": "phanemane.png",
+    "name": "Phane Mane",
+    "affiliation": "AI-Practitioner | Blogger | eCommerce SME | IT Strategist | MS, MBA",
+    "title": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow",
+    "abstract": "This session will guide you through the essentials of starting your journey in AI, focusing on selecting the right concepts and skills to learn first, from foundational mathematics and cloud-based tools to practical approaches for building small projects. You'll learn how to choose your specialized focus—whether it’s data analysis, computer vision, or natural language processing—and discover ways to accelerate your growth by sharing code online and tackling real-world problems."
+  },
+  {
+    "photo": "micky.png",
+    "name": "Micky Chhabda",
+    "affiliation": "Analytics Manager | TEDx Speaker | IEEE Senior Member",
+    "title": " AI and Analytics: Sustainable AI Through Data Storytelling",
+    "abstract": "In today’s data-saturated and AI-powered world, analytics shows what happened — past sales, data trends, and impact. AI predicts what could happen next — forecasting trends and detecting early signals to guide proactive strategy. But it’s storytelling that connects the dots, transforming complex data into clear, compelling decisions that drive action. In this dynamic session, Micky Chhabda demonstrates how to elevate engineering and marketing analytics using AI-powered insights and human-centric storytelling. Through real-world examples, he reveals how to turn static dashboards into strategic narratives that influence C-suites and convert data into business action. Learn how the combination of AI and analytics can be leveraged for long-term, sustainable marketing analytics decisions. This session bridges analytics and AI with engineering principles, offering IEEE members practical insights on applying data-driven storytelling to enhance precision, reliability, and decision-making in complex engineering and business systems. Explore the synergy between analytics, AI, and storytelling—discover how this trio transforms insights into impactful, sustainable business outcomes."
+  }
+]
