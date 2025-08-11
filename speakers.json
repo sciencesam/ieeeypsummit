@@ -1,16 +1,65 @@
 [
   {
+    "photo": "mary.png",
+    "name": "Mary Ellen Randall",
+    "affiliation": "2025 IEEE President-Elect | IEEE Fellow",
+    "title": "",
+    "abstract": "Mary Ellen Randall is an IEEE Fellow and IEEE-Eta Kappa Nu member with extensive IBM experience spanning hardware/software development, digital video chips, client/server services, network management, operating systems, test design automation, and international assignments. <p>She managed large international projects and served in top IEEE roles, including Treasurer, Vice President of Member and Geographic Activities, Region 3 Director, and IEEE Women in Engineering Committee Chair. <p>She founded the IEEE MOVE International Community Outreach Program for disaster relief and STEM education and received major recognition, including the IEEE Haraden Pratt Award."
+  },
+  {
+    "photo": "bala.png",
+    "name": "Bala Prasanna",
+    "affiliation": "IEEE Region 1 Director",
+    "title": "",
+    "abstract": "Mr Bala Prasanna’s professional career of over 35 years includes working in institutions like SUNY-State University of New York,  AT&T and IBM in various roles in senior technical and management positions. <p>He volunteers his time at IEEE- Region 1 as a member of Board of Governors. <p>He has also served as a board member at IEEE-USA during 2016-17.  <p>Mr. Prasanna is a proud to be a member of IEEE HKN Honor Society ."
+  },
+  {
     "photo": "phanemane.png",
     "name": "Phane Mane",
     "affiliation": "AI-Practitioner | Blogger | eCommerce SME | IT Strategist | MS, MBA",
     "title": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow",
-    "abstract": "This session will guide you through the essentials of starting your journey in AI, focusing on selecting the right concepts and skills to learn first, from foundational mathematics and cloud-based tools to practical approaches for building small projects. You'll learn how to choose your specialized focus—whether it’s data analysis, computer vision, or natural language processing—and discover ways to accelerate your growth by sharing code online and tackling real-world problems."
+    "abstract": "This session will guide you through the essentials of starting your journey in AI, focusing on selecting the right concepts and skills to learn first, from foundational mathematics and cloud-based tools to practical approaches for building small projects. <p>You'll learn how to choose your specialized focus—whether it’s data analysis, computer vision, or natural language processing—and discover ways to accelerate your growth by sharing code online and tackling real-world problems."
   },
   {
     "photo": "micky.png",
     "name": "Micky Chhabda",
     "affiliation": "Analytics Manager | TEDx Speaker | IEEE Senior Member",
-    "title": " AI and Analytics: Sustainable AI Through Data Storytelling",
-    "abstract": "In today’s data-saturated and AI-powered world, analytics shows what happened — past sales, data trends, and impact. AI predicts what could happen next — forecasting trends and detecting early signals to guide proactive strategy. But it’s storytelling that connects the dots, transforming complex data into clear, compelling decisions that drive action. In this dynamic session, Micky Chhabda demonstrates how to elevate engineering and marketing analytics using AI-powered insights and human-centric storytelling. Through real-world examples, he reveals how to turn static dashboards into strategic narratives that influence C-suites and convert data into business action. Learn how the combination of AI and analytics can be leveraged for long-term, sustainable marketing analytics decisions. This session bridges analytics and AI with engineering principles, offering IEEE members practical insights on applying data-driven storytelling to enhance precision, reliability, and decision-making in complex engineering and business systems. Explore the synergy between analytics, AI, and storytelling—discover how this trio transforms insights into impactful, sustainable business outcomes."
+    "title": "AI and Analytics: Sustainable AI Through Data Storytelling",
+    "abstract": "Analytics explains what happened, AI forecasts what’s likely next and surfaces early signals, and storytelling links the two—turning complex findings into clear narratives that drive action. <p>In this session, Micky Chhabda uses real examples to show how to transform static dashboards into C-suite-ready stories by fusing AI-driven analytics with engineering principles and human-centric storytelling, enabling precise, reliable, and sustainable decisions in engineering and marketing."
+  },
+  {
+    "photo": "stephanie.png",
+    "name": "Stephanie Gillespie",
+    "affiliation": "Associate Dean, Tagliatela College of Engineering at the University of New Haven | Chair, IEEE Humanitarian Technologies Education Committee",
+    "title": "Get connected: How HTB can help you make an impact",
+    "abstract": "The IEEE Humanitarian Technologies Board (HTB) inspires and empowers IEEE volunteers around the world carrying out and supporting impactful humanitarian technology activities at the local level. <p>Learn more about the HTB programs and opportunities, and then dive into an interactive session where you will identify local challenges in your community that you can help solve. <p>Learn best tips on connecting with communities, and start to prepare your pitch for later in the workshop"
+  },
+  {
+    "photo": "alberto.png",
+    "name": "Alberto Tam Yong",
+    "affiliation": "Senior Electrical Engineer | Vice Chair, IEEE Young Professionals Committee",
+    "title": "",
+    "abstract": "Session details coming soon."
+  },
+  {
+    "photo": "eddyvertill.png",
+    "name": "Dr. Eddy Vertill",
+    "affiliation": "Seasoned Management Consultant | Professor, Rutgers University & Alvernia University",
+    "title": "",
+    "abstract": "Introduction to PMI certifications."
+  },
+  {
+    "photo": "frank.png",
+    "name": "Frank Saladis",
+    "affiliation": "Author | PMP | PMI Fellow | Founder, Blue Marble Enterprizes Inc.",
+    "title": "",
+    "abstract": "Introduction to PMI certifications."
+  },
+  {
+    "photo": "ahsan.png",
+    "name": "Ahsan Qamer Sheikh",
+    "affiliation": "Chair, IEEE Young Professionals Germany",
+    "title": "",
+    "abstract": "Panelist for panel discussion - What works with YP engagement."
   }
 ]
