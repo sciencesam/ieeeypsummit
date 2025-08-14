@@ -141,7 +141,7 @@ const map = L.map('map', {
   const venue = [40.70668350299752, -74.00833827290312];
   L.marker(venue, { icon: ieeeIcon })
   .addTo(map)
-  .bindPopup('YP Summit Venue: 60 Pine St')
+  .bindPopup('YP Summit Venue:')
   .bindTooltip("YP Summit venue", {
     permanent: true,
     direction: "right",

@@ -1,0 +1,66 @@
+:root{
+/* tweak these to match your palette */
+--c-header:#e6eef6;
+--c-section:#dde8f7;       /* "Registration opens", "Opening" */
+--c-dinner:#f1c9a9;
+--c-lunch:#cfe7c6;
+--c-breakfast:#f7e9b0;
+--c-mixer:#c8d5ff;
+--c-hotel:#ead9b9;
+--c-optional:#f7f0c2;
+--c-break:#efeef5;
+--c-talk:#eef7ff;
+--c-border:#cbd5e1;
+--c-text:#0f172a;
+--c-muted:#475569;
+}
+
+html,body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:var(--c-text);background:#fff;margin:0}
+.wrap{max-width:1100px;margin:auto;padding:24px}
+h1{font-size:1.375rem;margin:0 0 10px 0}
+.note{color:var(--c-muted);font-size:.9rem;margin-bottom:14px}
+
+table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;background:#fff;border:1px solid var(--c-border);border-radius:10px;overflow:hidden}
+thead th{position:sticky;top:0;background:var(--c-header);z-index:1}
+th,td{padding:8px 10px;border-bottom:1px solid var(--c-border);vertical-align:middle; word-wrap:break-word}
+th{font-weight:600;text-align:left}
+colgroup col:nth-child(1){width:18%}  /* Day */
+colgroup col:nth-child(2){width:12%}  /* Hour */
+colgroup col:nth-child(3){width:10%}  /* Duration */
+colgroup col:nth-child(4){width:30%}  /* Activity */
+colgroup col:nth-child(5){width:15%}  /* Main */
+colgroup col:nth-child(6){width:15%}  /* Breakout */
+
+/* Row styles you can apply via class="" */
+.section   {background:var(--c-section); font-weight:600}
+.dinner    {background:var(--c-dinner);  font-weight:600}
+.lunch     {background:var(--c-lunch);   font-weight:600}
+.breakfast {background:var(--c-breakfast)}
+.mixer     {background:var(--c-mixer);   font-weight:600}
+.hotel     {background:var(--c-hotel)}
+.optional  {background:var(--c-optional); font-style:italic}
+.break     {background:var(--c-break)}
+.talks     {background:var(--c-talk)}
+.open      {font-weight:700}
+.center    {text-align:center}
+
+/* Day cell */
+.day{font-weight:700}
+
+/* Time, Duration chips (optional look) */
+.time, .dur{
+display:inline-block;padding:2px 8px;border:1px solid var(--c-border);
+border-radius:999px;font-variant-numeric:tabular-nums;font-size:.9rem
+}
+
+/* Print */
+@media print{
+.wrap{padding:0}
+.note{display:none}
+table{border-radius:0;border:1px solid #000}
+thead th{position:static}
+a::after{content:""}
+}
+
+.time, .dur { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.section, .dinner, .lunch, .mixer { font-weight: 700; } /* make “bar” rows pop */
