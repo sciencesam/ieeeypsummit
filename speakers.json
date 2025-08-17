@@ -52,15 +52,15 @@
     "photo": "eddyvertill.png",
     "name": "Dr. Eddy Vertill",
     "affiliation": "Seasoned Management Consultant | Professor, Rutgers University & Alvernia University",
-    "title": "",
-    "abstract": "Introduction to PMI certifications."
+    "title": "Workshop: Project Management Institute",
+    "abstract": "Dr. Eddy Vertil is a seasoned management consultant, professor, and thought  leader in strategy, innovation, and project management. He is a Forbes Business  Council member and an active contributor to discussions on leadership and  organizational agility. As a professor at Rutgers University and Alvernia  University, he teaches future leaders how to navigate complexity with clarity and  impact. Dr. Vertil also serves as Vice Chair of Technology for the Project  Management Institute (PMI) New Jersey Chapter, where he drives strategic  initiatives and partnerships. He’s passionate about helping organizations connect  innovation with purpose—ensuring that as technology accelerates, their  strategies don’t just keep up, but stay grounded in what truly matters."
   },
   {
     "photo": "frank.png",
     "name": "Frank Saladis",
     "affiliation": "Author | PMP | PMI Fellow | Founder, Blue Marble Enterprizes Inc.",
-    "title": "",
-    "abstract": "Introduction to PMI certifications."
+    "title": "Workshop: Project Management Institute",
+    "abstract": "Frank P. Saladis, PMP, PMI Fellow is the Owner/Founder of Blue Marble  Enterprizes Inc. and Project Imaginers. Frank is an accomplished leader and  contributor in the discipline of project management. He is the author of 12 published books, the past editor of the All PM Newsletter (an IIL publication) and the author of over 180 published project management articles. Frank  provides training and consulting services internationally and has educated and entertained countless audiences with a special blend of project management  knowledge and tasteful humor. Mr. Saladis’s 40 year career includes 28.5 years with AT&T, 3 years with Cisco  Systems, and many years in a parallel track as a Board member of PMI NYC  Chapter, professional trainer, facilitator, mentor, and keynote speaker."
   },
   {
     "photo": "ahsan.png",
@@ -72,8 +72,36 @@
   {
     "photo": "sam_stone.jpeg",
     "name": "Sam Stone",
-    "affiliation": "AI/ML Engineer at Lockheed Martin| IEEE Region 1 Young Professionals Chair",
+    "affiliation": "AI/ML Engineer at Lockheed Martin | IEEE Region 1 Young Professionals Chair",
     "title": "IEEE Regions 1+2 Young Professionals",
     "abstract": "Sam Stone is an Artificial Intelligence Engineer at Lockheed Martin, specializing in radar signal processing. Sam has a BS in Electrical Engineering from Binghamton University and has several publications related to signal processing, autonomous vehicles, deep learning, large language models, and radar. Sam has been an active member of the IEEE for 10 years and is currently the IEEE Region 1 Young Professionals Chair and the IEEE Syracuse Section Treasurer."
+  },
+  {
+    "photo": "Shaibu_Ibrahim.png",
+    "name": "Shaibu Ibrahim",
+    "affiliation": "IEEE Young Professionals Climate and Sustainability Sub-Committee Communications Lead",
+    "title": "IEEE CSSC and Leveraging AI for increasing efficiency and productivity",
+    "abstract": "Shaibu Ibrahim is a licensed Professional Engineer (PE) in the State of New Jersey and a Senior Electrical Engineer with Acciona Energia USA Global. He is an IEEE Senior Member with over a decade of combined experience in power generation, transmission, and distribution. Currently, he plays a key role in the engineering and construction of large-scale renewable energy power plants (solar and wind) and battery energy storage systems (BESS) across North America (USA and Canada). He is an active member of the IEEE, the IEEE Power & Energy Society (PES), the IEEE Young Professionals (YP), CIGRE, and PMI. He also volunteers as the Communication Lead for the IEEE YP CSSC. Shaibu holds essential certifications, including the North American Board of Certified Energy Practitioners (NABCEP) PV Installation Professional (PVIP), Project Management Professional (PMP), and Leadership in Energy and Environmental Design (LEED) Green Associate. He also contributes to the IEEE Standards Association Working Group P3575 and the CIGRE Working Group C3.025. Moreover, in his ample time, he mentors engineering students and early-career professionals to secure jobs and advance their careers."
+  },
+  {
+    "photo": "Ryan_Cunius.png",
+    "name": "Ryan Cunius",
+    "affiliation": "Senior Legislative Representative at IEEE-USA",
+    "title": "IEEE CSSC and Leveraging AI for increasing efficiency and productivity",
+    "abstract": "Ryan Cunius is a seasoned government affairs professional with over 10 years of experience navigating the Washington, D.C. policy landscape. He has a proven track record of success in public policy and legislative affairs, with a career that spans the legislative branch, the private sector, and the federal government. Ryan began his career on Capitol Hill, serving in the offices of Rep. Lois Frankel (D-FL) and Rep. Dutch Ruppersberger (D-MD). He then transitioned to the private sector, where he specialized in energy policy, focusing on initiatives such as clean energy tax production credits. Following this, he joined the U.S. Postal Service as a government affairs professional, where he played a role in the organization's shift toward electric delivery vehicles. In July 2024, Ryan joined IEEE-USA as a Senior Legislative Representative. In this role, he serves as the staff liaison for the Energy and Research and Development Policy Committees. His work involves collaborating with IEEE-USA members to advocate for their public policy positions to Congress and the administration."
+  },
+  {
+    "photo": "Daniel_Alfonso.jpg",
+    "name": "Daniel Alfonso",
+    "affiliation": "Sr. Trainer, Learning & Development at IEEE",
+    "title": "Workshop: Building Business Relationships",
+    "abstract": "Experienced Trainer, Technical & Business Subjects, Certified Management Facilitator, Masters of Science,Technical Writing, PHR, DDI, InsideOut Development, DISC Facilitator. Daniel L. Alfonso II is a seasoned trainer with over 25 years of experience teaching a wide range of technical and business subjects, including management and computer help desk topics. He holds a Master's degree in Technical Writing and possesses several professional certifications, such as PHR, DDI, and InsideOut Development. Daniel is excited to facilitate the Building Business Relationships (DISC) program for the young professional team."
+  },
+  {
+    "photo": "Kartik_Srinivasan.jpeg",
+    "name": "Kartik Srinivasan",
+    "affiliation": "Staff Systems Engineer ",
+    "title": "Autonomous Vehicle Advancements with AI Integration and the Role of V&V for Safe Deployment",
+    "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience in automotive and autonomous systems, he has played a pivotal role in developing HIL V&V strategies for Level 4 autonomous trucks at Torc Robotics. His expertise includes designing HIL test environments, system integration, and test automation for safety-critical vehicle systems. Previously, Kartik led HIL validation teams at Motional, contributing to the development of Drive-by-Wire and Perception subsystem testing frameworks. His work at Nexteer Automotive and LG Chemical Power further strengthened his experience in mechatronic test benches, functional safety, and battery management systems. Holding a Master’s degree in Electrical Engineering from Michigan Technological University, Kartik has pioneered innovative HIL testing methodologies. Passionate about AV safety and scalable validation frameworks, he actively contributes to advancing the field of autonomous mobility."
   }
 ]

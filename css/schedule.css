@@ -45,7 +45,12 @@ colgroup col:nth-child(6){width:15%}  /* Breakout */
 .center    {text-align:center}
 
 /* Day cell */
-.day{font-weight:700}
+
+.day td {
+    position: sticky;
+    top: 40px;   /* adjust so it sits under your main nav */
+    z-index: 3;
+  }
 
 /* Time, Duration chips (optional look) */
 .time, .dur{
@@ -64,3 +69,56 @@ a::after{content:""}
 
 .time, .dur { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .section, .dinner, .lunch, .mixer { font-weight: 700; } /* make “bar” rows pop */
+
+/* --- Mobile-friendly table --- */
+.table-scroll{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;          /* optional: matches table radius */
+  }
+  
+  /* prevent “H o u r” / “D u r a t i o n” vertical wrapping */
+  thead th { white-space: nowrap; }
+  
+  /* keep header visible while scrolling horizontally on mobile */
+  thead th { position: sticky; top: 0; z-index: 2; }
+  
+  /* Ensure chips don’t overlap and stay on one line */
+  .time, .dur{
+    display: inline-block;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    margin-right: 8px;            /* space between the two pills */
+  }
+  
+  /* default table minimum width so columns aren’t crushed */
+  .table-scroll > table { min-width: 700px; }
+  
+  /* Let long content wrap in the big columns */
+  td:nth-child(4), td:nth-child(5), td:nth-child(6){
+    word-break: normal;
+    overflow-wrap: anywhere;      /* helps with very long words */
+  }
+  
+  /* --- Small screens --- */
+  @media (max-width: 900px){
+    .wrap{ padding: 16px; }
+  
+    /* allow browser to size columns more naturally */
+    .table-scroll > table{ table-layout: auto; }
+  
+    /* drop explicit column widths from colgroup on mobile */
+    colgroup{ display: none; }
+  
+    th, td{ padding: 6px 8px; }
+  
+    /* shrink the chips a touch */
+    .time, .dur{
+        font-size: 11px;
+        padding: 1px 6px;
+        margin-right: 4px;
+      }
+
+      thead th { font-size: 13px; }
+  }
+  
