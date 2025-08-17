@@ -14,9 +14,23 @@
     "abstract": "Mr Bala Prasanna’s professional career of over 35 years includes working in institutions like SUNY-State University of New York,  AT&T and IBM in various roles in senior technical and management positions. <p>He volunteers his time at IEEE- Region 1 as a member of Board of Governors. <p>He has also served as a board member at IEEE-USA during 2016-17.  <p>Mr. Prasanna is a proud to be a member of IEEE HKN Honor Society ."
   },
   {
+    "photo": "Subodha_Charles.jpg",
+    "name": "Subodha Charles",
+    "affiliation": "IEEE Student Activities Committee Chair",
+    "title": "From Student to Professional: Keeping the University Link Alive",
+    "abstract": "Subodha Charles is a faculty member at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. He received his Ph.D. in Computer Science from the University of Florida, USA, and his B.Sc. specializing in Electronics and Telecommunication Engineering from the University of Moratuwa, Sri Lanka. His research interests include hardware security and trust, embedded systems and computer architecture. Subodha co-founded a company in Sri Lanka operating in the energy sector in 2013, and it is currently one of the country's market leaders. The company has invested and expanded into other areas such as construction, digital solutions, and healthcare, and is now operating as a group of companies - “Pearl Cluster”. He has volunteered at IEEE (Institute of Electrical and Electronics Engineers) since 2011 and has held several global leadership positions. He has successfully led many initiatives within IEEE to foster entrepreneurship, industry collaboration, and membership growth. Several international awards within IEEE have recognized his efforts. Currently, he serves as the Chair of the IEEE MGA Student Activities Committee."
+  },
+  {
+    "photo": "alberto.png",
+    "name": "Alberto Tam Yong",
+    "affiliation": "Senior Electrical Engineer | Vice Chair, IEEE Young Professionals Committee",
+    "title": "IEEE Young Professionals",
+    "abstract": "Alberto Tam Yong is a Senior Electrical Engineer at Applied Medical in Rancho Santa Margarita, CA, innovating in the Technology and Development, Electrical, team to advance medical devices for minimally invasive surgery. He has experience in the design, prototype, and development of hardware electrical systems, and specializes in analog and digital circuit design. He received his BSc in Electrical Engineering from the University of California, Riverside, in 2016. He started volunteering for IEEE as the 2015-2016 Chair of the IEEE Student Branch at the University of California, Riverside, and has continued to volunteer for IEEE at the local Section, Regional, and global level. Currently, Alberto Tam Yong is a Vice Chair of the IEEE Young Professionals Committee, Chair of the IEEE Region 6 Regional Student Activities Committee (RSAC), Past Chair of IEEE Region 6 Young Professionals Committee, Chair of the IEEE Orange County Section, an organizing committee member for the IEEE Rising Stars Conference, a member of the IEEE OneIEEE for Students AdHoc Committee, and a member of the IEEE in 2050 and Beyond AdHoc Committee."
+  },
+  {
     "photo": "phanemane.png",
     "name": "Phane Mane",
-    "affiliation": "AI-Practitioner | Blogger | eCommerce SME | IT Strategist | MS, MBA",
+    "affiliation": "Global Lead - AI Product Strategy/Delivery at Boston Scientific",
     "title": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow",
     "abstract": "This session will guide you through the essentials of starting your journey in AI, focusing on selecting the right concepts and skills to learn first, from foundational mathematics and cloud-based tools to practical approaches for building small projects. <p>You'll learn how to choose your specialized focus—whether it’s data analysis, computer vision, or natural language processing—and discover ways to accelerate your growth by sharing code online and tackling real-world problems."
   },
@@ -33,13 +47,6 @@
     "affiliation": "Associate Dean, Tagliatela College of Engineering at the University of New Haven | Chair, IEEE Humanitarian Technologies Education Committee",
     "title": "Get connected: How HTB can help you make an impact",
     "abstract": "The IEEE Humanitarian Technologies Board (HTB) inspires and empowers IEEE volunteers around the world carrying out and supporting impactful humanitarian technology activities at the local level. <p>Learn more about the HTB programs and opportunities, and then dive into an interactive session where you will identify local challenges in your community that you can help solve. <p>Learn best tips on connecting with communities, and start to prepare your pitch for later in the workshop"
-  },
-  {
-    "photo": "alberto.png",
-    "name": "Alberto Tam Yong",
-    "affiliation": "Senior Electrical Engineer | Vice Chair, IEEE Young Professionals Committee",
-    "title": "",
-    "abstract": "Session details coming soon."
   },
   {
     "photo": "eddyvertill.png",
@@ -61,5 +68,12 @@
     "affiliation": "Chair, IEEE Young Professionals Germany",
     "title": "",
     "abstract": "Panelist for panel discussion - What works with YP engagement."
+  },
+  {
+    "photo": "sam_stone.jpeg",
+    "name": "Sam Stone",
+    "affiliation": "AI/ML Engineer at Lockheed Martin| IEEE Region 1 Young Professionals Chair",
+    "title": "IEEE Regions 1+2 Young Professionals",
+    "abstract": "Sam Stone is an Artificial Intelligence Engineer at Lockheed Martin, specializing in radar signal processing. Sam has a BS in Electrical Engineering from Binghamton University and has several publications related to signal processing, autonomous vehicles, deep learning, large language models, and radar. Sam has been an active member of the IEEE for 10 years and is currently the IEEE Region 1 Young Professionals Chair and the IEEE Syracuse Section Treasurer."
   }
 ]

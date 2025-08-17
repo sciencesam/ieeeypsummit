@@ -74,15 +74,16 @@ const map = L.map('map', {
   //     html: `<div class="icon-label" style="background:${color}; border-radius:50%; width:28px; height:28px;">${label}</div>`,
   //     className: ''
   //   });
-
-    L.marker(center, { icon }).addTo(map);
+    if (arguments.length === 4) {
+      L.marker(center, { icon }).addTo(map);
+    }
   }
 
   // Brooklyn 2/3
   const icon23 = L.icon({
       iconUrl: 'icons/train_23.png',
       iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [28, 14],     // center bottom (half width, half height)
+      iconAnchor: [56, 0],     // center bottom (half width, half height)
   });
 
   addRoute([
@@ -90,25 +91,39 @@ const map = L.map('map', {
     [40.6924, -73.9903],  // Borough Hall
     [40.6970, -73.9930],  // Clark
     [40.7072, -74.0092],  // Wall St
-    [40.7071, -74.0087]   // Venue
   ], 'red', '2',icon23);
+
+  addRoute([
+    [40.7072, -74.0092],  // Wall St
+    [40.755417658520365, -73.98743503883057]   // Venue (42 Times Sq)
+  ], 'red', '2');
 
   // Jersey City PATH
   const iconPATH = L.icon({
       iconUrl: 'icons/path_train.png',
       iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [28, 14],     // center bottom (half width, half height)
+      iconAnchor: [40, 0],     // center bottom (half width, half height)
   });
 
   addRoute([
     [40.7160, -74.0321],  // Exchange Place
-    [40.7126, -74.0092],  // WTC
-    [40.7071, -74.0087]
+    [40.71159046346357, -74.01326946574508],  // WTC
   ], 'blue', 'PATH',iconPATH);
 
-  // LIC: N route
-  const iconN = L.icon({
-      iconUrl: 'icons/train_N.png',
+  // Jersey City 1
+  const icon1 = L.icon({
+    iconUrl: 'icons/train_1.png',
+    iconSize: [56, 28],       // width x height in pixels
+    iconAnchor: [56, 14],     // center bottom (half width, half height)
+  });
+  addRoute([
+    [40.71159046346357, -74.01326946574508],  // WTC
+    [40.755417658520365, -73.98743503883057]   // Venue (42 Times Sq)
+  ], 'red', '1',icon1);
+
+  // LIC: R route
+  const iconR = L.icon({
+      iconUrl: 'icons/train_R.png',
       iconSize: [56, 28],       // width x height in pixels
       iconAnchor: [28, 14],     // center bottom (half width, half height)
   });
@@ -116,21 +131,14 @@ const map = L.map('map', {
 
   addRoute([
     [40.7483, -73.9373],  // Queens Plaza
-    [40.76271759698326, -73.96780088677686]   // Lex Av (R)
-  ], 'orange', 'N', iconN);
-
-  // LIC: 4/5 route
-  const icon45 = L.icon({
-      iconUrl: 'icons/train_45.png',
-      iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [28, 14],     // center bottom (half width, half height)
-  });
+    [40.76271759698326, -73.96780088677686],   // Lex Av (R)
+  ], 'orange', 'R', iconR);
 
   addRoute([
-    [40.76251228016332, -73.96795709347725],  // 59 St (4/5)
-    [40.7072, -74.0092],  // Wall St
-    [40.7071, -74.0087]
-  ], 'green', '4/5',icon45);
+    [40.76271759698326, -73.96780088677686],   // Lex Av (R)
+    [40.755417658520365, -73.98743503883057] // Venue (42 Times Sq)
+  ], 'orange', 'R');
+
 
   // Venue with IEEE logo
   const ieeeIcon = L.icon({
@@ -138,10 +146,10 @@ const map = L.map('map', {
     iconSize: [36, 36],
     iconAnchor: [18, 18]
   });
-  const venue = [40.70668350299752, -74.00833827290312];
+  const venue = [40.75121917550264, -73.98414697321572];
   L.marker(venue, { icon: ieeeIcon })
   .addTo(map)
-  .bindPopup('YP Summit Venue:')
+  .bindPopup('YP Summit Venue: Jay Conference Empire')
   .bindTooltip("YP Summit venue", {
     permanent: true,
     direction: "right",
