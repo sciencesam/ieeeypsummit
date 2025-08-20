@@ -14,6 +14,13 @@
     "abstract": "Mr Bala Prasanna’s professional career of over 35 years includes working in institutions like SUNY-State University of New York,  AT&T and IBM in various roles in senior technical and management positions. <p>He volunteers his time at IEEE- Region 1 as a member of Board of Governors. <p>He has also served as a board member at IEEE-USA during 2016-17.  <p>Mr. Prasanna is a proud to be a member of IEEE HKN Honor Society ."
   },
   {
+    "photo": "Kalyani_Matey.jpg",
+    "name": "Kalyani Matey",
+    "affiliation": "2025 IEEE YP Summit Chair, Humanitarian Lead at the IEEE Climate and Sustainability Subcommittee, YP Rep to IEEE Humanatarian Technologies Board",
+    "title": "",
+    "abstract": "Kalyani Palash Matey is the Humanitarian Lead at the IEEE Climate and Sustainability Subcommittee. Her background is in sales, marketing, and strategic program management. She is the YP representative to the Humanitarian Technologies Board. Kalyani has over a decade of experience in social impact and sustainability volunteering. She has developed go-to-market strategies enabling financial independence for persons from marginalized communities through products made from repurposed materials. She is a passionate advocate for driving inclusive and sustainable development through circular economy practices."
+  },
+  {
     "photo": "Subodha_Charles.jpg",
     "name": "Subodha Charles",
     "affiliation": "IEEE Student Activities Committee Chair",
@@ -103,5 +110,19 @@
     "affiliation": "Staff Systems Engineer ",
     "title": "Autonomous Vehicle Advancements with AI Integration and the Role of V&V for Safe Deployment",
     "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience in automotive and autonomous systems, he has played a pivotal role in developing HIL V&V strategies for Level 4 autonomous trucks at Torc Robotics. His expertise includes designing HIL test environments, system integration, and test automation for safety-critical vehicle systems. Previously, Kartik led HIL validation teams at Motional, contributing to the development of Drive-by-Wire and Perception subsystem testing frameworks. His work at Nexteer Automotive and LG Chemical Power further strengthened his experience in mechatronic test benches, functional safety, and battery management systems. Holding a Master’s degree in Electrical Engineering from Michigan Technological University, Kartik has pioneered innovative HIL testing methodologies. Passionate about AV safety and scalable validation frameworks, he actively contributes to advancing the field of autonomous mobility."
+  },
+  {
+    "photo": "Abir_Chermiti.png",
+    "name": "Abir Chermiti",
+    "affiliation": "Program Specialist, Industry Engagement, IEEE Corporate Activities ",
+    "title": "IEEE Industry Engagement Committee",
+    "abstract": "Abir Chermiti is a technology leader and IEEE professional with a strong focus on bridging innovation, industry collaboration, and inclusive leadership. As a Program Specialist in Industry Engagement at IEEE Corporate Activities, Abir supports initiatives that connect corporations with global talent, accelerate workforce development, and promote emerging technologies through strategic programming. With over five years of experience in project and program management across startups, nonprofits, and global tech ecosystems, Abir is passionate about the intersection of AI, entrepreneurship, and professional development. She is a dedicated advocate for mentoring early-career professionals and a recognized ally for women in tech—committed to creating pathways for underrepresented voices in engineering and innovation."
+  },
+  {
+    "photo": "Sunny_Bellary.jpg",
+    "name": "Sunny Bellary",
+    "affiliation": "Research Engineer - Substation Assets and Robotics | IEEE Region 3 Young Professionals Chair",
+    "title": "",
+    "abstract": "Sunny is a Research Engineer specializing in Robotics at EPRI’s ED&CS Sector in Substation research. His role involves researching and deploying autonomous mobile robots equipped with advanced payloads for substation asset inspections and enhancing physical security. Sunny collaborate closely with cross program teams and utilities to integrate cutting-edge technologies for more efficient substation maintenance, leveraging AI and robotics to develop innovative solutions tailored to the utility industry. Sunny holds a Master’s degree in Electrical Engineering from UNC Charlotte. During his time at UNC Charlotte, he earned the prestigious Joanna R. Baker Memorial Fellowship and the Outstanding Graduate Teaching Assistant Award in 2018. A prolific researcher, he has published papers, journal articles, and book chapters at various IEEE and Cigre conferences, along with numerous technical reports at EPRI. An active IEEE member, Sunny has served as IEEE Region 3 Young Professionals Coordinator and Chair of IEEE Charlotte Young Professionals. He is also passionate about mentoring, rural electrification projects like Project Belaku, and fostering innovation within the engineering community."
   }
 ]
