@@ -261,3 +261,46 @@ li {
     margin-bottom: 0.8rem;
     line-height: 1.6;
 }
+
+.nav-container a,
+.nav-container .dropbtn {
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #111;
+}
+
+.dropdown-content a:hover {
+  background: #f3f3f3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
