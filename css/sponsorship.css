@@ -1,0 +1,8 @@
+/* Scales down on mobile, centers on desktop, never upscales past natural size */
+.sponsorship-img{
+  display: block;
+  height: auto;
+  max-width: min(92vw, 1000px);
+  margin: 1rem auto;
+  /* optional niceness: border-radius: 12px; */
+}
