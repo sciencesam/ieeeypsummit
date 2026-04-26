@@ -75,6 +75,10 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+nav a[aria-current="page"] {
+    text-decoration: underline;
+}
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -97,6 +101,16 @@ header img {
     max-width: 80%; /* makes it responsive on small screens */
     display: block;
     margin: 0 auto 10px auto; /* center it */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 .container {
