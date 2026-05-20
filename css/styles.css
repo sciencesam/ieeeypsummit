@@ -103,6 +103,29 @@ header img {
     margin: 0 auto 10px auto; /* center it */
 }
 
+.partner-lockup {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 0.45rem 0.8rem;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 6px;
+}
+
+.partner-lockup img {
+    max-height: 46px;
+    max-width: 150px;
+    margin: 0;
+}
+
+.partner-lockup span {
+    width: 1px;
+    height: 38px;
+    background: #d8d8d8;
+}
+
 header h1 {
     font-size: 2rem;
     margin: 0.5rem 0;
@@ -111,6 +134,14 @@ header h1 {
 header p {
     font-size: 1rem;
     margin: 0.5rem 0;
+}
+
+header .partner-kicker {
+    margin: 1rem 0 0.35rem 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .container {
@@ -148,6 +179,20 @@ a:hover {
 @media (max-width: 600px) {
     header img {
         max-height: 80px;
+    }
+
+    .partner-lockup {
+        gap: 0.65rem;
+        padding: 0.35rem 0.55rem;
+    }
+
+    .partner-lockup img {
+        max-height: 34px;
+        max-width: 96px;
+    }
+
+    .partner-lockup span {
+        height: 28px;
     }
 
     .container {
