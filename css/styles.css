@@ -103,6 +103,11 @@ header img {
     margin: 0 auto 10px auto; /* center it */
 }
 
+.about-partners {
+    text-align: center;
+    margin: 1rem 0 1.2rem 0;
+}
+
 .partner-lockup {
     display: inline-flex;
     align-items: center;
@@ -110,7 +115,8 @@ header img {
     gap: 1rem;
     margin: 0 auto;
     padding: 0.45rem 0.8rem;
-    background: rgba(255, 255, 255, 0.90);
+    background: #ffffff;
+    border: 1px solid #e0e6ef;
     border-radius: 6px;
 }
 
@@ -136,9 +142,9 @@ header p {
     margin: 0.5rem 0;
 }
 
-header .partner-kicker {
-    margin: 1rem 0 0.35rem 0;
-    color: rgba(255, 255, 255, 0.72);
+.partner-kicker {
+    margin: 0 0 0.35rem 0;
+    color: #5f6f82;
     font-size: 0.78rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
