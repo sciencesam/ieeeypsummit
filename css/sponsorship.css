@@ -6,3 +6,37 @@
   margin: 1rem auto;
   /* optional niceness: border-radius: 12px; */
 }
+
+.sponsor-profile {
+  display: grid;
+  grid-template-columns: minmax(160px, 260px) 1fr;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e0e6ef;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.sponsor-profile-gold {
+  border-color: #d9b45f;
+  border-top: 4px solid #c49a2c;
+}
+
+.sponsor-logo {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+.sponsor-profile p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .sponsor-profile {
+    grid-template-columns: 1fr;
+  }
+}

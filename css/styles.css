@@ -51,6 +51,18 @@
     margin-bottom: 0.5rem;
 }
 
+.homepage-sponsor {
+    display: flex;
+    justify-content: center;
+    margin: 0.75rem 0 1.25rem;
+}
+
+.homepage-sponsor img {
+    display: block;
+    width: min(72vw, 260px);
+    height: auto;
+}
+
 nav {
     background-color: #004f9f;
     padding: 0.5rem 1rem;
