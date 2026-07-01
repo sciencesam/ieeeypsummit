@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../speakers.json') // corrected path
+    fetch('speakers.json')
         .then(response => {
             if (!response.ok) throw new Error('Network response not ok.');
             return response.json();
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const speakerHTML = `
                     <div class="speaker-card">
-                        <img src="../resources/speakerpictures/${speaker.photo}" alt="${speaker.name}" 
+                        <img src="resources/speakerpictures/${speaker.photo}" alt="${speaker.name}" 
                              onerror="this.onerror=null;this.src='https://via.placeholder.com/150';">
                         <h3>${speaker.name}</h3>
                         <h4>${speaker.affiliation}</h4>

@@ -1,213 +1,171 @@
 document.addEventListener("DOMContentLoaded", function () {
-const map = L.map('map', {
+  const mapElement = document.getElementById("map");
+  if (!mapElement || typeof L === "undefined") return;
+
+  const map = L.map("map", {
     zoomSnap: 0.1,
     scrollWheelZoom: false,
   });
 
-  const bounds = [];
-
-  const tileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> & contributors',
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
 
-
-
-  // Hotels grouped by area
-  const hotelGroups = [
+  const locations = [
     {
-      name: 'Brooklyn Hotels',
-      coords: [
-        [40.69269211188672, -73.98205472122571],
-        [40.6927, -73.9875]
-      ],
-      links: [
-        ['Hampton Inn Brooklyn Downtown', 'https://maps.app.goo.gl/8EV3VPNf94dKYSti7'],
-        ['Hilton Brooklyn New York', 'https://maps.app.goo.gl/cWxPAkp1m4JxVePr8'],
-        ['Aloft New York Brooklyn', 'https://maps.app.goo.gl/gtfU53PeLBPc195L8'],
-      ]
+      name: "Summit Venue",
+      detail: "Boston University Photonics Building (PHO), 8 St Mary's St, Boston, MA 02215",
+      coords: [42.34927542965443, -71.10589025543275],
+      link: "https://maps.app.goo.gl/qzZd25q8Ro3h3nj99",
+      linkText: "Open in Google Maps",
+      color: "#004f9f",
     },
     {
-      name: 'Jersey City Hotels',
-      coords: [
-        [40.71840734973723, -74.03417215632061],
-        [40.7145, -74.0341]
-      ],
-      links: [
-        ['Hyatt Regency Jersey City', 'https://maps.app.goo.gl/h7DSgGCszqrdHmpX8'],
-        ['Sonesta Simply Suites Jersey City', 'https://maps.app.goo.gl/F4GeoB9JhMGe4EJe7'],
-      ]
+      name: "BU On-Campus Housing",
+      detail: "On-campus housing at 10 Buick Street, Boston, MA 02215.",
+      coords: [42.352436984966566, -71.11597251321153],
+      link: "https://bu.irisregistration.com/Site/IEEE2026",
+      linkText: "Book BU housing",
+      mapsLink: "https://www.google.com/maps/search/?api=1&query=10%20Buick%20Street%2C%20Boston%2C%20MA%2002215",
+      markerType: "hotel",
+      color: "#1ca64d",
     },
     {
-      name: 'Queens (LIC) Hotels',
-      coords: [
-        [40.75242594614098, -73.93680098898402],
-        [40.7473, -73.9429]
-      ],
-      links: [
-        ['Hyatt Place Long Island City', 'https://maps.app.goo.gl/i7gbRiKejDGfgj289'],
-        ['Wingate by Wyndham Long Island City', 'https://maps.app.goo.gl/jDGuB2YUVVYWp44k8'],
-        ['Aloft Long Island City','https://maps.app.goo.gl/wXhJ1GpmaQdeWTJQ6'],
-      ]
-    }
+      name: "DoubleTree Suites Boston - Cambridge",
+      detail: "VIP hotel block at 400 Soldiers Field Road, Boston, MA 02134.",
+      coords: [42.36047436363813, -71.11804785581758],
+      link: "https://www.hilton.com/en/attend-my-event/bossbdt-91a-84d68467-d2d4-4895-bc73-aee11d0fedf7/",
+      linkText: "Book Hilton DoubleTree Cambridge",
+      mapsLink: "https://www.google.com/maps/dir/Boston+University+Photonics+Building+(PHO),+8+St+Mary's+St,+Boston,+MA+02215/400+Soldiers+Fld+Rd,+Boston,+MA+02134/@42.3550611,-71.1326077,2930m/data=!3m1!1e3!4m18!4m17!1m5!1m1!1s0x89e379f188bfd413:0xc16928482cd3c4e1!2m2!1d-71.1066353!2d42.3492536!1m5!1m1!1s0x89e379e0fc240fa5:0x5cec71db96fdbad3!2m2!1d-71.11832!2d42.360259!2m3!6e0!7e2!8j1782637200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
+      mapsLinkText: "Transit directions in Google Maps",
+      markerType: "hotel",
+      color: "#7a4ea3",
+    },
   ];
 
+  const bounds = [];
+  const summitVenue = locations.find((location) => location.name === "Summit Venue");
+  const buHousing = locations.find((location) => location.name === "BU On-Campus Housing");
 
+  if (summitVenue && buHousing) {
+    const buHousingRoute = [
+      [42.35089799616848, -71.11432221275149],
+      [42.35001027541202, -71.10690423630051],
+    ];
 
-  function midpoint(latlngs) {
-    const [firstLat, firstLng] = latlngs[0];
-    const [lastLat, lastLng] = latlngs[latlngs.length - 1];
-    const midlat = (lastLat + firstLat)/2;
-    const midlong = (lastLng + firstLng)/2;
-    const midpoint = [midlat, midlong];
-    return midpoint;
-  //   const idx = Math.floor(latlngs.length / 2);
-  //   return latlngs[idx];
+    L.polyline(buHousingRoute, {
+      color: "#1ca64d",
+      weight: 4,
+      opacity: 0.75,
+    })
+      .addTo(map)
+      .bindTooltip("MBTA Green Line B branch", {
+        direction: "center",
+        sticky: true,
+      });
+
+    bounds.push(...buHousingRoute);
   }
 
-  function addRoute(latlngs, color, label,icon) {
-    L.polyline(latlngs, { color, weight: 4 }).addTo(map);
-    bounds.push(...latlngs);
+  L.marker([42.35045, -71.11055], {
+    icon: L.divIcon({
+      className: "green-line-label",
+      html: "<span>B</span>",
+      iconSize: [24, 24],
+      iconAnchor: [12, 12],
+    }),
+    interactive: false,
+  }).addTo(map);
 
-    const center = midpoint(latlngs);
+  bounds.push([42.35045, -71.11055]);
 
-  //   const icon = L.divIcon({
-  //     html: `<div class="icon-label" style="background:${color}; border-radius:50%; width:28px; height:28px;">${label}</div>`,
-  //     className: ''
-  //   });
-    if (arguments.length === 4) {
-      L.marker(center, { icon }).addTo(map);
-    }
-  }
+  const hiltonTransitRoute = [
+    [42.360674230575796, -71.11872456882071],
+    [42.35341200925233, -71.13790772767311],
+    [42.35022461273822, -71.10709450994374],
+  ];
 
-  // Brooklyn 2/3
-  const icon23 = L.icon({
-      iconUrl: 'icons/train_23.png',
-      iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [56, 0],     // center bottom (half width, half height)
+  L.polyline(hiltonTransitRoute, {
+    color: "#f2c94c",
+    weight: 5,
+    opacity: 0.9,
+  })
+    .addTo(map)
+    .bindTooltip("Transit route to DoubleTree via MBTA 57/64", {
+      direction: "center",
+      sticky: true,
+    });
+
+  bounds.push(...hiltonTransitRoute);
+
+  [
+    { label: "64", coords: [42.3569, -71.1288] },
+    { label: "57", coords: [42.3518, -71.1226] },
+  ].forEach((route) => {
+    L.marker(route.coords, {
+      icon: L.divIcon({
+        className: "bus-route-label",
+        html: `<span>${route.label}</span>`,
+        iconSize: [28, 20],
+        iconAnchor: [14, 10],
+      }),
+      interactive: false,
+    }).addTo(map);
+
+    bounds.push(route.coords);
   });
 
-  addRoute([
-    [40.6905, -73.9850],  // Hoyt
-    [40.6924, -73.9903],  // Borough Hall
-    [40.6970, -73.9930],  // Clark
-    [40.7072, -74.0092],  // Wall St
-  ], 'red', '2',icon23);
-
-  addRoute([
-    [40.7072, -74.0092],  // Wall St
-    [40.755417658520365, -73.98743503883057]   // Venue (42 Times Sq)
-  ], 'red', '2');
-
-  // Jersey City PATH
-  const iconPATH = L.icon({
-      iconUrl: 'icons/path_train.png',
-      iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [40, 0],     // center bottom (half width, half height)
-  });
-
-  addRoute([
-    [40.7160, -74.0321],  // Exchange Place
-    [40.71159046346357, -74.01326946574508],  // WTC
-  ], 'blue', 'PATH',iconPATH);
-
-  // Jersey City 1
-  const icon1 = L.icon({
-    iconUrl: 'icons/train_1.png',
-    iconSize: [56, 28],       // width x height in pixels
-    iconAnchor: [56, 14],     // center bottom (half width, half height)
-  });
-  addRoute([
-    [40.71159046346357, -74.01326946574508],  // WTC
-    [40.755417658520365, -73.98743503883057]   // Venue (42 Times Sq)
-  ], 'red', '1',icon1);
-
-  // LIC: R route
-  const iconR = L.icon({
-      iconUrl: 'icons/train_R.png',
-      iconSize: [56, 28],       // width x height in pixels
-      iconAnchor: [28, 14],     // center bottom (half width, half height)
-  });
-  
-
-  addRoute([
-    [40.7483, -73.9373],  // Queens Plaza
-    [40.76271759698326, -73.96780088677686],   // Lex Av (R)
-  ], 'orange', 'R', iconR);
-
-  addRoute([
-    [40.76271759698326, -73.96780088677686],   // Lex Av (R)
-    [40.755417658520365, -73.98743503883057] // Venue (42 Times Sq)
-  ], 'orange', 'R');
-
-
-  // Venue with IEEE logo
-  const ieeeIcon = L.icon({
-    iconUrl: 'icons/ieee_logo_icon.png',
+  const venueIcon = L.icon({
+    iconUrl: "icons/ieee_logo_icon.png",
     iconSize: [36, 36],
-    iconAnchor: [18, 18]
+    iconAnchor: [18, 18],
   });
-  const venue = [40.75121917550264, -73.98414697321572];
-  L.marker(venue, { icon: ieeeIcon })
-  .addTo(map)
-  .bindPopup('YP Summit Venue: Jay Conference Empire')
-  .bindTooltip("YP Summit venue", {
-    permanent: true,
-    direction: "right",
-    offset: [15, 0],
-    className: "hotel-tooltip"
-  });
-  bounds.push(venue);
 
-  // Hotel icon
   const hotelIcon = L.icon({
-    iconUrl: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/buildings.svg',
+    iconUrl: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/buildings.svg",
     iconSize: [30, 30],
     iconAnchor: [15, 30],
   });
 
-  hotelGroups.forEach(group => {
-    const popupHtml = group.links.map(
-      ([name, url]) => `<div><a href="${url}" target="_blank">${name}</a></div>`
-    ).join('');
-    const marker = L.marker(group.coords[0], { icon: hotelIcon })
+  function makeMarkerIcon(color) {
+    return L.divIcon({
+      className: "summit-map-marker",
+      html: `<span style="background:${color}"></span>`,
+      iconSize: [18, 18],
+      iconAnchor: [9, 9],
+    });
+  }
+
+  locations.forEach((location) => {
+    const mapsLink = location.mapsLink
+      ? `<br><a href="${location.mapsLink}" target="_blank" rel="noopener">${location.mapsLinkText || "Open in Google Maps"}</a>`
+      : "";
+    const popup = `
+      <strong>${location.name}</strong><br>
+      ${location.detail}<br>
+      <a href="${location.link}" target="_blank" rel="noopener">${location.linkText}</a>
+      ${mapsLink}
+    `;
+
+    const isStayMarker = location.markerType === "hotel";
+    const icon = location.name === "Summit Venue"
+      ? venueIcon
+      : isStayMarker
+        ? hotelIcon
+        : makeMarkerIcon(location.color);
+
+    L.marker(location.coords, { icon })
       .addTo(map)
-      .bindPopup(`<strong>${group.name}</strong><br>${popupHtml}`)
-      .bindTooltip(group.name.replace(" Hotels", ""), {
-        permanent: true,
-        direction: "right",
-        offset: [15, -10],
-        className: "hotel-tooltip"
+      .bindPopup(popup)
+      .bindTooltip(location.name, {
+        permanent: isStayMarker,
+        direction: isStayMarker ? "right" : "top",
+        offset: isStayMarker ? [15, -10] : [0, -8],
+        className: "hotel-tooltip",
       });
-    bounds.push(...group.coords);
+
+    bounds.push(location.coords);
   });
 
-map.fitBounds(bounds, { padding: [40, 40] });
-
-const containerMap = {
-    "Jersey City Hotels": document.getElementById("JC-list"),
-    "Queens (LIC) Hotels": document.getElementById("LIC-list"),
-    "Brooklyn Hotels": document.getElementById("Brooklyn-list")
-    };
-
-hotelGroups.forEach(group => {
-    const container = containerMap[group.name];
-    if (!container) return; // Skip if container not found
-
-    // const groupHeader = document.createElement("h4");
-    // groupHeader.textContent = "Hotels";
-    // container.appendChild(groupHeader);
-
-    const ul = document.createElement("ul");
-    group.links.forEach(([hotelName, hotelUrl]) => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = hotelUrl;
-        a.textContent = hotelName;
-        a.target = "_blank";
-        li.appendChild(a);
-        ul.appendChild(li);
-    });
-
-    container.appendChild(ul);
-});
+  map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
 });
