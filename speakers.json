@@ -1,149 +1,44 @@
 [
   {
-    "photo": "mary.png",
-    "name": "Mary Ellen Randall",
-    "affiliation": "2025 IEEE President-Elect | IEEE Fellow",
-    "title": "",
-    "abstract": "Mary Ellen Randall is an IEEE Fellow and IEEE-Eta Kappa Nu member with extensive IBM experience spanning hardware/software development, digital video chips, client/server services, network management, operating systems, test design automation, and international assignments. <p>She managed large international projects and served in top IEEE roles, including Treasurer, Vice President of Member and Geographic Activities, Region 3 Director, and IEEE Women in Engineering Committee Chair. <p>She founded the IEEE MOVE International Community Outreach Program for disaster relief and STEM education and received major recognition, including the IEEE Haraden Pratt Award."
+    "photo": "Russell Harrison.jpeg",
+    "name": "Russell Harrison",
+    "affiliation": "",
+    "title": "Constraining AI through the Political Process",
+    "abstract": "Russell Harrison serves as Managing Director of IEEE-USA, the American component of the Institute of Electrical and Electronic Engineers, and Director of Global Policy for IEEE. Russell has over 20 years of experience working in Washington, D.C. representing America's technology community. His global team of policy experts works to help governments enact technically sound public policies while encouraging innovation and societal improvement. Beyond public policy, IEEE-USA specializes in innovative collaborations within America's technology community, especially bringing innovators in smaller communities together to maximize their innovative capacity."
   },
   {
-    "photo": "bala.png",
-    "name": "Bala Prasanna",
-    "affiliation": "IEEE Region 1 Director",
-    "title": "",
-    "abstract": "Mr Bala Prasanna’s professional career of over 35 years includes working in institutions like SUNY-State University of New York,  AT&T and IBM in various roles in senior technical and management positions. <p>He volunteers his time at IEEE- Region 1 as a member of Board of Governors. <p>He has also served as a board member at IEEE-USA during 2016-17.  <p>Mr. Prasanna is a proud to be a member of IEEE HKN Honor Society ."
+    "photo": "Shankar Krishnan.jpg",
+    "name": "Shankar Krishnan",
+    "affiliation": "",
+    "title": "How are AI agents creating new opportunities for your professionals across various industries?",
+    "abstract": "I bring 15+ years of AI/ML experience, with the last five years focused specifically on Generative AI at AWS, where I led product development within the Amazon Bedrock GenAI organization for conversational AI. In that role, I launched and scaled multiple 0-to-1 ML products. Prior to AWS, I led conversational AI initiatives for IBM Watson serving large enterprise clients, and held AI product leadership roles at Aptiv (autonomous vehicles) and Upserve (AI analytics for SMBs)."
   },
   {
-    "photo": "Kalyani_Matey.jpg",
-    "name": "Kalyani Matey",
-    "affiliation": "2025 IEEE YP Summit Chair, Humanitarian Lead at the IEEE Climate and Sustainability Subcommittee, YP Rep to IEEE Humanatarian Technologies Board",
-    "title": "",
-    "abstract": "Kalyani Palash Matey is the Humanitarian Lead at the IEEE Climate and Sustainability Subcommittee. Her background is in sales, marketing, and strategic program management. She is the YP representative to the Humanitarian Technologies Board. Kalyani has over a decade of experience in social impact and sustainability volunteering. She has developed go-to-market strategies enabling financial independence for persons from marginalized communities through products made from repurposed materials. She is a passionate advocate for driving inclusive and sustainable development through circular economy practices."
-  },
-  {
-    "photo": "Subodha_Charles.jpg",
-    "name": "Subodha Charles",
-    "affiliation": "IEEE Student Activities Committee Chair",
-    "title": "From Student to Professional: Keeping the University Link Alive",
-    "abstract": "Subodha Charles is a faculty member at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. He received his Ph.D. in Computer Science from the University of Florida, USA, and his B.Sc. specializing in Electronics and Telecommunication Engineering from the University of Moratuwa, Sri Lanka. His research interests include hardware security and trust, embedded systems and computer architecture. Subodha co-founded a company in Sri Lanka operating in the energy sector in 2013, and it is currently one of the country's market leaders. The company has invested and expanded into other areas such as construction, digital solutions, and healthcare, and is now operating as a group of companies - “Pearl Cluster”. He has volunteered at IEEE (Institute of Electrical and Electronics Engineers) since 2011 and has held several global leadership positions. He has successfully led many initiatives within IEEE to foster entrepreneurship, industry collaboration, and membership growth. Several international awards within IEEE have recognized his efforts. Currently, he serves as the Chair of the IEEE MGA Student Activities Committee."
-  },
-  {
-    "photo": "alberto.png",
-    "name": "Alberto Tam Yong",
-    "affiliation": "Senior Electrical Engineer | Vice Chair, IEEE Young Professionals Committee",
-    "title": "IEEE Young Professionals",
-    "abstract": "Alberto Tam Yong is a Senior Electrical Engineer at Applied Medical in Rancho Santa Margarita, CA, innovating in the Technology and Development, Electrical, team to advance medical devices for minimally invasive surgery. He has experience in the design, prototype, and development of hardware electrical systems, and specializes in analog and digital circuit design. He received his BSc in Electrical Engineering from the University of California, Riverside, in 2016. He started volunteering for IEEE as the 2015-2016 Chair of the IEEE Student Branch at the University of California, Riverside, and has continued to volunteer for IEEE at the local Section, Regional, and global level. Currently, Alberto Tam Yong is a Vice Chair of the IEEE Young Professionals Committee, Chair of the IEEE Region 6 Regional Student Activities Committee (RSAC), Past Chair of IEEE Region 6 Young Professionals Committee, Chair of the IEEE Orange County Section, an organizing committee member for the IEEE Rising Stars Conference, a member of the IEEE OneIEEE for Students AdHoc Committee, and a member of the IEEE in 2050 and Beyond AdHoc Committee."
-  },
-  {
-    "photo": "phanemane.png",
+    "photo": "Phane Mane.jpeg",
     "name": "Phane Mane",
-    "affiliation": "Global Lead - AI Product Strategy/Delivery at Boston Scientific",
+    "affiliation": "",
     "title": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow",
-    "abstract": "This session will guide you through the essentials of starting your journey in AI, focusing on selecting the right concepts and skills to learn first, from foundational mathematics and cloud-based tools to practical approaches for building small projects. <p>You'll learn how to choose your specialized focus—whether it’s data analysis, computer vision, or natural language processing—and discover ways to accelerate your growth by sharing code online and tackling real-world problems."
+    "abstract": "AI is reshaping every industry and every career path. In this session, Phane Mane, an OMBA Cohort 2 alum, shares practical frameworks for developing an AI-ready mindset, aligning business education with emerging AI-driven roles, and future-proofing careers through lifelong learning and experimentation. Drawing on real-world leadership experience, students will gain actionable strategies for leveraging AI tools, building differentiated skills, and positioning themselves as leaders in an AI-powered business world.\n\nPhane led AI product delivery at Boston Scientific and is based in the Boston area. He can be reached at https://www.linkedin.com/in/phanemane/"
   },
   {
-    "photo": "micky.png",
-    "name": "Micky Chhabda",
-    "affiliation": "Analytics Manager | TEDx Speaker | IEEE Senior Member",
-    "title": "AI and Analytics: Sustainable AI Through Data Storytelling",
-    "abstract": "Analytics explains what happened, AI forecasts what’s likely next and surfaces early signals, and storytelling links the two—turning complex findings into clear narratives that drive action. <p>In this session, Micky Chhabda uses real examples to show how to transform static dashboards into C-suite-ready stories by fusing AI-driven analytics with engineering principles and human-centric storytelling, enabling precise, reliable, and sustainable decisions in engineering and marketing."
+    "photo": "Aravindhan Anbazhagan.jpeg",
+    "name": "Aravindhan Anbazhagan",
+    "affiliation": "",
+    "title": "Staying Relevant in the Age of AI: The Human Skills That Still Matter",
+    "abstract": "Aravindhan Anbazhagan is a graduate student in Public Policy and Management at Carnegie Mellon University and an internationally recognized IEEE volunteer leader with over ten years of service across student, young professional, and professional communities. He serves on the Board of Governors of the IEEE Professional Communication Society and is a recipient of the IEEE Richard E. Merwin Student Scholarship, Larry K. Wilson Outstanding Asia-Pacific Student Volunteer Award, and IEEE MGA Young Professionals Achievement Award."
   },
   {
-    "photo": "stephanie.png",
-    "name": "Stephanie Gillespie",
-    "affiliation": "Associate Dean, Tagliatela College of Engineering at the University of New Haven | Chair, IEEE Humanitarian Technologies Education Committee",
-    "title": "Get connected: How HTB can help you make an impact",
-    "abstract": "The IEEE Humanitarian Technologies Board (HTB) inspires and empowers IEEE volunteers around the world carrying out and supporting impactful humanitarian technology activities at the local level. <p>Learn more about the HTB programs and opportunities, and then dive into an interactive session where you will identify local challenges in your community that you can help solve. <p>Learn best tips on connecting with communities, and start to prepare your pitch for later in the workshop"
+    "photo": "Irene Ko.jpg",
+    "name": "Irene Ko",
+    "affiliation": "",
+    "title": "Looking Inside AI Language Models: Inspecting and Steering AI as It Runs",
+    "abstract": "Dr. Ching-Yun (Irene) Ko is a Staff Research Scientis at IBM Research. Her research focuses primarily on trustworthy machine learning. Her research focuses on trustworthy machine learning and large language models, particularly model safety, alignment, and robustness across training-time and runtime interventions. Dr. Ko has published papers in esteemed AI/ML conferences, including ICML, NeurIPS, ICLR, IROS, IJCAI, and AAAI, where she has given talks and often served as a program committee member or a reviewer. Her research also extends to efficient scientific computing, in which she has authored papers in renowned journals and conferences such as Automatica, IEEE Transactions on Image Processing, and IEEE Conference on Decision and Control. Dr. Ko received her Ph.D. in electrical engineering and computer science from the Massachusetts Institute of Technology, Cambridge, USA, in 2024."
   },
   {
-    "photo": "eddyvertill.png",
-    "name": "Dr. Eddy Vertill",
-    "affiliation": "Seasoned Management Consultant | Professor, Rutgers University & Alvernia University",
-    "title": "Workshop: Project Management Institute",
-    "abstract": "Dr. Eddy Vertil is a seasoned management consultant, professor, and thought  leader in strategy, innovation, and project management. He is a Forbes Business  Council member and an active contributor to discussions on leadership and  organizational agility. As a professor at Rutgers University and Alvernia  University, he teaches future leaders how to navigate complexity with clarity and  impact. Dr. Vertil also serves as Vice Chair of Technology for the Project  Management Institute (PMI) New Jersey Chapter, where he drives strategic  initiatives and partnerships. He’s passionate about helping organizations connect  innovation with purpose—ensuring that as technology accelerates, their  strategies don’t just keep up, but stay grounded in what truly matters."
-  },
-  {
-    "photo": "frank.png",
-    "name": "Frank Saladis",
-    "affiliation": "Author | PMP | PMI Fellow | Founder, Blue Marble Enterprizes Inc.",
-    "title": "Workshop: Project Management Institute",
-    "abstract": "Frank P. Saladis, PMP, PMI Fellow is the Owner/Founder of Blue Marble  Enterprizes Inc. and Project Imaginers. Frank is an accomplished leader and  contributor in the discipline of project management. He is the author of 12 published books, the past editor of the All PM Newsletter (an IIL publication) and the author of over 180 published project management articles. Frank  provides training and consulting services internationally and has educated and entertained countless audiences with a special blend of project management  knowledge and tasteful humor. Mr. Saladis’s 40 year career includes 28.5 years with AT&T, 3 years with Cisco  Systems, and many years in a parallel track as a Board member of PMI NYC  Chapter, professional trainer, facilitator, mentor, and keynote speaker."
-  },
-  {
-    "photo": "ahsan.png",
-    "name": "Ahsan Qamer Sheikh",
-    "affiliation": "Chair, IEEE Young Professionals Germany",
-    "title": "",
-    "abstract": "Panelist for panel discussion - What works with YP engagement."
-  },
-  {
-    "photo": "sam_stone.jpeg",
-    "name": "Sam Stone",
-    "affiliation": "AI/ML Engineer at Lockheed Martin | IEEE Region 1 Young Professionals Chair",
-    "title": "IEEE Regions 1+2 Young Professionals",
-    "abstract": "Sam Stone is an Artificial Intelligence Engineer at Lockheed Martin, specializing in radar signal processing. Sam has a BS in Electrical Engineering from Binghamton University and has several publications related to signal processing, autonomous vehicles, deep learning, large language models, and radar. Sam has been an active member of the IEEE for 10 years and is currently the IEEE Region 1 Young Professionals Chair and the IEEE Syracuse Section Treasurer."
-  },
-  {
-    "photo": "Alexis_Gorgacz.jpeg",
-    "name": "Alexis Gorgacz",
-    "affiliation": "Substation Commissioning Engineer | IEEE Region 2 Young Professionals Chair",
-    "title": "",
-    "abstract": "Alexis Gorgacz is the IEEE Region 2 Young Professionals Coordinator, Pittsburgh IEEE Section Treasurer, and Pittsburgh IEEE Women in Engineering Chair. A graduate of Youngstown State University, Alexis now works as a Substation Commissioning Engineer for Duquesne Light Company in Pittsburgh, PA. In her spare time, Alexis loves spending time with her dogs and spending time in nature."
-  },
-  {
-    "photo": "Shaibu_Ibrahim.png",
-    "name": "Shaibu Ibrahim",
-    "affiliation": "IEEE Young Professionals Climate and Sustainability Sub-Committee Communications Lead",
-    "title": "IEEE CSSC and Leveraging AI for increasing efficiency and productivity",
-    "abstract": "Shaibu Ibrahim is a licensed Professional Engineer (PE) in the State of New Jersey and a Senior Electrical Engineer with Acciona Energia USA Global. He is an IEEE Senior Member with over a decade of combined experience in power generation, transmission, and distribution. Currently, he plays a key role in the engineering and construction of large-scale renewable energy power plants (solar and wind) and battery energy storage systems (BESS) across North America (USA and Canada). He is an active member of the IEEE, the IEEE Power & Energy Society (PES), the IEEE Young Professionals (YP), CIGRE, and PMI. He also volunteers as the Communication Lead for the IEEE YP CSSC. Shaibu holds essential certifications, including the North American Board of Certified Energy Practitioners (NABCEP) PV Installation Professional (PVIP), Project Management Professional (PMP), and Leadership in Energy and Environmental Design (LEED) Green Associate. He also contributes to the IEEE Standards Association Working Group P3575 and the CIGRE Working Group C3.025. Moreover, in his ample time, he mentors engineering students and early-career professionals to secure jobs and advance their careers."
-  },
-  {
-    "photo": "Ryan_Cunius.png",
-    "name": "Ryan Cunius",
-    "affiliation": "Senior Legislative Representative at IEEE-USA",
-    "title": "IEEE CSSC and Leveraging AI for increasing efficiency and productivity",
-    "abstract": "Ryan Cunius is a seasoned government affairs professional with over 10 years of experience navigating the Washington, D.C. policy landscape. He has a proven track record of success in public policy and legislative affairs, with a career that spans the legislative branch, the private sector, and the federal government. Ryan began his career on Capitol Hill, serving in the offices of Rep. Lois Frankel (D-FL) and Rep. Dutch Ruppersberger (D-MD). He then transitioned to the private sector, where he specialized in energy policy, focusing on initiatives such as clean energy tax production credits. Following this, he joined the U.S. Postal Service as a government affairs professional, where he played a role in the organization's shift toward electric delivery vehicles. In July 2024, Ryan joined IEEE-USA as a Senior Legislative Representative. In this role, he serves as the staff liaison for the Energy and Research and Development Policy Committees. His work involves collaborating with IEEE-USA members to advocate for their public policy positions to Congress and the administration."
-  },
-  {
-    "photo": "Daniel_Alfonso.jpg",
-    "name": "Daniel Alfonso",
-    "affiliation": "Sr. Trainer, Learning & Development at IEEE",
-    "title": "Workshop: Building Business Relationships",
-    "abstract": "Experienced Trainer, Technical & Business Subjects, Certified Management Facilitator, Masters of Science,Technical Writing, PHR, DDI, InsideOut Development, DISC Facilitator. Daniel L. Alfonso II is a seasoned trainer with over 25 years of experience teaching a wide range of technical and business subjects, including management and computer help desk topics. He holds a Master's degree in Technical Writing and possesses several professional certifications, such as PHR, DDI, and InsideOut Development. Daniel is excited to facilitate the Building Business Relationships (DISC) program for the young professional team."
-  },
-  {
-    "photo": "Kartik_Srinivasan.jpeg",
-    "name": "Kartik Srinivasan",
-    "affiliation": "Staff Systems Engineer ",
-    "title": "Autonomous Vehicle Advancements with AI Integration and the Role of V&V for Safe Deployment",
-    "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience in automotive and autonomous systems, he has played a pivotal role in developing HIL V&V strategies for Level 4 autonomous trucks at Torc Robotics. His expertise includes designing HIL test environments, system integration, and test automation for safety-critical vehicle systems. Previously, Kartik led HIL validation teams at Motional, contributing to the development of Drive-by-Wire and Perception subsystem testing frameworks. His work at Nexteer Automotive and LG Chemical Power further strengthened his experience in mechatronic test benches, functional safety, and battery management systems. Holding a Master’s degree in Electrical Engineering from Michigan Technological University, Kartik has pioneered innovative HIL testing methodologies. Passionate about AV safety and scalable validation frameworks, he actively contributes to advancing the field of autonomous mobility."
-  },
-  {
-    "photo": "Abir_Chermiti.png",
+    "photo": "Abir Chermiti.png",
     "name": "Abir Chermiti",
-    "affiliation": "Program Specialist, Industry Engagement, IEEE Corporate Activities ",
-    "title": "State of IEEE Industry Engagement",
-    "abstract": "Abir Chermiti is a technology leader and IEEE professional with a strong focus on bridging innovation, industry collaboration, and inclusive leadership. As a Program Specialist in Industry Engagement at IEEE Corporate Activities, Abir supports initiatives that connect corporations with global talent, accelerate workforce development, and promote emerging technologies through strategic programming. With over five years of experience in project and program management across startups, nonprofits, and global tech ecosystems, Abir is passionate about the intersection of AI, entrepreneurship, and professional development. She is a dedicated advocate for mentoring early-career professionals and a recognized ally for women in tech—committed to creating pathways for underrepresented voices in engineering and innovation."
-  },
-  {
-    "photo": "Sunny_Bellary.jpg",
-    "name": "Sunny Bellary",
-    "affiliation": "Research Engineer - Substation Assets and Robotics | IEEE Region 3 Young Professionals Chair",
-    "title": "",
-    "abstract": "Sunny is a Research Engineer specializing in Robotics at EPRI’s ED&CS Sector in Substation research. His role involves researching and deploying autonomous mobile robots equipped with advanced payloads for substation asset inspections and enhancing physical security. Sunny collaborate closely with cross program teams and utilities to integrate cutting-edge technologies for more efficient substation maintenance, leveraging AI and robotics to develop innovative solutions tailored to the utility industry. Sunny holds a Master’s degree in Electrical Engineering from UNC Charlotte. During his time at UNC Charlotte, he earned the prestigious Joanna R. Baker Memorial Fellowship and the Outstanding Graduate Teaching Assistant Award in 2018. A prolific researcher, he has published papers, journal articles, and book chapters at various IEEE and Cigre conferences, along with numerous technical reports at EPRI. An active IEEE member, Sunny has served as IEEE Region 3 Young Professionals Coordinator and Chair of IEEE Charlotte Young Professionals. He is also passionate about mentoring, rural electrification projects like Project Belaku, and fostering innovation within the engineering community."
-  },
-  {
-    "photo": "Colin_Russell.jpeg",
-    "name": "Colin Russell",
-    "affiliation": "Software Engineer at Nationwide | IEEE Region 1 Young Professionals Vice Chair, Events",
-    "title": "",
-    "abstract": "Colin Russell is a Computer Engineer from Youngstown, Ohio. He is the chair of the Young Professionals Affinity Group within the IEEE Cleveland Section. Additionally, he is the Vice Chair of Events for IEEE Regions 1 and 2 Young Professionals. Colin is a Software Engineer at Nationwide where he specializes in writing backend software for the financial services industry. Colin is a graduate of Ohio University, where he was an ambassador for the Russ College of Engineering and Technology's Electrical Engineering program and chair of the university's student section of IEEE. While chair of the Ohio University IEEE branch, Colin organized presentations featuring guest speakers from prestigious organizations including NASA, Boeing, the Department of Energy, and Ohio University's own professors. In addition to leading the Ohio University IEEE section, Colin worked with the student ExCom to revitalize the university's Eta Kappa Nu section. To further his education, Colin is currently pursing a Master's of Science in Computer Science from Tufts University."
-  },
-  {
-    "photo": "Anil_Kandalam.JPG",
-    "name": "Anil Kandalam",
-    "affiliation": "Technical Lead of AI Engineering at PSL Group America Ltd",
-    "title": "Data Platform Transformation: Evolution to AI-Driven Systems",
-    "abstract": "Anil Kumar Kandalam is a Lead Data Platform Engineer from India, currently based in South Plainfield, New Jersey. He serves as Technical Lead of AI Engineering at PSL Group America Ltd, where he specializes in healthcare AI/ML integration and enterprise data management with over 14 years of experience in software development and microservices architecture. Anil is a Senior Member of IEEE and  actively contributing as an IEEE Technical Paper Reviewer for conferences and journals. He is a graduate of Jawaharlal Nehru Technological University, where he earned his Bachelor of Technology degree and has since pursued extensive AWS and AI certifications including AWS Solutions Architect Associate and Databricks Generative AI Fundamentals. Anil's most notable achievement is developing Dougall GPT, a groundbreaking generative AI tool designed specifically for healthcare professionals that saves physicians 5-7 minutes per patient by providing instant access to verified medical information. During the COVID-19 pandemic, he led critical platform overhauls that accelerated healthcare newsletter dissemination from weeks to days, directly supporting frontline healthcare workers. In addition to his technical expertise, Anil serves as a top 1% mentor on ADPList and judges prestigious industry competitions including HackMIT, Brandon Hall Group Excellence Awards, and QS Reimagine Education Awards. His work has been recognized with the International Achievers Award from the Indian Achievers Forum and 'Prominent Industry Expert of the Year 2024' by Business Mint for his contributions to AI integration in healthcare."
+    "affiliation": "",
+    "title": "IEEE Industry AI Labs: Connecting Young Professionals to AI Skills, Tools, and Industry Opportunities",
+    "abstract": "Abir Chermiti is a strategic industry engagement leader at IEEE, advancing global initiatives at the intersection of artificial intelligence, industry collaboration, workforce transformation, and professional development. She is deeply engaged in IEEE's AI-focused efforts, including initiatives that explore how AI can support career development, applied learning, industry engagement, and responsible innovation. Her work includes helping shape programs such as IEEE Industry AI Labs and AI-enabled career tools that connect IEEE members, young professionals, students, volunteers, and industry leaders with practical opportunities to learn, build, and collaborate around emerging technologies.\n\nAbir is passionate about making AI more accessible, useful, and relevant for professionals navigating the future of work. She brings strong enthusiasm for human-centered AI, cross-disciplinary collaboration, and the role IEEE can play in helping technical communities turn AI innovation into real-world impact."
   }
 ]

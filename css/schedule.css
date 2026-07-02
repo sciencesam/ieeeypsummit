@@ -16,3 +16,102 @@
   max-width: min(92vw, 1000px);
   margin: 1rem auto;
 }
+
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  margin: 1rem 0 2rem;
+  background: #ffffff;
+}
+
+.schedule-grid {
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.95rem;
+}
+
+.schedule-grid th,
+.schedule-grid td {
+  border: 1px solid #cfd8e3;
+  padding: 0.55rem 0.6rem;
+  vertical-align: middle;
+}
+
+.schedule-grid th {
+  background: #f4f7fb;
+  color: #1f2f40;
+  font-weight: 700;
+  text-align: center;
+}
+
+.schedule-grid th:nth-child(1),
+.schedule-grid td:nth-child(1) {
+  width: 13%;
+  text-align: center;
+}
+
+.schedule-grid th:nth-child(2),
+.schedule-grid td:nth-child(2),
+.schedule-grid th:nth-child(3),
+.schedule-grid td:nth-child(3) {
+  width: 12%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.schedule-grid th:nth-child(4),
+.schedule-grid td:nth-child(4) {
+  width: 65%;
+  text-align: center;
+}
+
+.schedule-grid .day {
+  background: #ffffff;
+  color: #111111;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.talks {
+  background: #dce9f6;
+}
+
+.schedule-grid .section,
+.schedule-grid .dinner,
+.schedule-grid .lunch {
+  background: #fde6c3;
+}
+
+.schedule-grid .break {
+  background: #e6f0dc;
+}
+
+.schedule-grid .hotel,
+.schedule-grid .optional {
+  background: #f0f0f0;
+}
+
+.time,
+.dur {
+  white-space: nowrap;
+}
+
+.schedule-grid .multi-line {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .schedule-grid {
+    min-width: 760px;
+  }
+
+  .schedule-grid th,
+  .schedule-grid td {
+    padding: 0.55rem 0.6rem;
+  }
+}
