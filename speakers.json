@@ -1,5 +1,26 @@
 [
   {
+    "photo": "Jill_Gostin.jpg",
+    "name": "Jill Gostin, 2026 IEEE President-Elect",
+    "affiliation": "",
+    "title": "",
+    "abstract": "Jill I. Gostin is a Principal Research Scientist Emeritus at the Georgia Tech Research Institute (GTRI), where her work focused on sensor systems and software. She also served as the systems engineering, integration, and test lead in the software engineering and architecture division. Her publications, service and technical awards, large program management, and leadership of groups including industry, government, and academia have contributed to her career success. \n\nShe has served IEEE extensively, including three years on the IEEE Board of Directors, as 2023 IEEE Vice President of Member and Geographic Activities and 2020-2021 Region 3 Director. She is a former chair of the IEEE Atlanta Section and the IEEE Computer Society’s Atlanta Chapter. Gostin served on the IEEE Computer and IEEE Aerospace and Electronic Systems societies’ boards of governors and was the vice president of finance for the Sensor Council’s Executive Committee. She has also led or been a member of several IEEE organizational units and committees, locally and globally.\n\nHer leadership has been recognized by being named 2016 Woman of the Year by Georgia Women in Technology and receiving the 2025 IEEE Women in Technology & Leadership Award.\n"
+  },
+  {
+    "photo": "Anuradha_bahl.png",
+    "name": "Anuradha C Bahl",
+    "affiliation": "",
+    "title": "Amplifying Human Potential for an AI-Powered Future ",
+    "abstract": "Anu Bahl is responsible for directing multiple transformational\ninitiatives focused on improving design timeline efficiencies and\ndriving software tool/license standardization to enhance affordability and delivery speed, as well\nas strengthen mission performance.\n\nThroughout her career, she has held several pivotal leadership roles spanning cross-functional\nteam leadership, business strategy, and program execution across signal processing, advanced\nspacecraft bus systems, payload integration and RF sensor electronics. She has a proven track\nrecord of translating complex technical challenges into scalable business and operational\noutcomes.\n\nShe has completed several leadership development programs over the course of her career and\nhas been recognized with multiple awards, including “Rising Star,” “Employee of the Year,”\n“Move the Needle” and “Operational Excellence,” reflecting her significant contributions to\nprogram execution and enterprise-wide operational transformation.\n\nShe holds a bachelor’s degree in electronics and telecommunication from India and a master’s\ndegree in electrical and computer engineering from Utah State University. Outside of work, she\nenjoys traveling with her family, baking, reading, and expressing her creativity through her\npassion for art.\n"
+  },
+  {
+    "photo": "stephanie.png",
+    "name": "Stephanie Gillespie",
+    "affiliation": "Associate Dean, Tagliatela College of Engineering at the University of New Haven | Chair, IEEE Humanitarian Technologies Education Committee",
+    "title": "Get connected: How HTB can help you make an impact",
+    "abstract": "The IEEE Humanitarian Technologies Board (HTB) inspires and empowers IEEE volunteers around the world carrying out and supporting impactful humanitarian technology activities at the local level. <p>Learn more about the HTB programs and opportunities, and then dive into an interactive session where you will identify local challenges in your community that you can help solve. <p>Learn best tips on connecting with communities, and start to prepare your pitch for later in the workshop"
+  },
+  {
     "photo": "Russell Harrison.jpeg",
     "name": "Russell Harrison",
     "affiliation": "",
@@ -40,5 +61,19 @@
     "affiliation": "",
     "title": "IEEE Industry AI Labs: Connecting Young Professionals to AI Skills, Tools, and Industry Opportunities",
     "abstract": "Abir Chermiti is a strategic industry engagement leader at IEEE, advancing global initiatives at the intersection of artificial intelligence, industry collaboration, workforce transformation, and professional development. She is deeply engaged in IEEE's AI-focused efforts, including initiatives that explore how AI can support career development, applied learning, industry engagement, and responsible innovation. Her work includes helping shape programs such as IEEE Industry AI Labs and AI-enabled career tools that connect IEEE members, young professionals, students, volunteers, and industry leaders with practical opportunities to learn, build, and collaborate around emerging technologies.\n\nAbir is passionate about making AI more accessible, useful, and relevant for professionals navigating the future of work. She brings strong enthusiasm for human-centered AI, cross-disciplinary collaboration, and the role IEEE can play in helping technical communities turn AI innovation into real-world impact."
+  },
+  {
+    "photo": "Kartik_Srinivasan.jpeg",
+    "name": "Kartik Srinivasan",
+    "affiliation": "Staff Systems Engineer ",
+    "title": "",
+    "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience in automotive and autonomous systems, he has played a pivotal role in developing HIL V&V strategies for Level 4 autonomous trucks at Torc Robotics. His expertise includes designing HIL test environments, system integration, and test automation for safety-critical vehicle systems. Previously, Kartik led HIL validation teams at Motional, contributing to the development of Drive-by-Wire and Perception subsystem testing frameworks. His work at Nexteer Automotive and LG Chemical Power further strengthened his experience in mechatronic test benches, functional safety, and battery management systems. Holding a Master’s degree in Electrical Engineering from Michigan Technological University, Kartik has pioneered innovative HIL testing methodologies. Passionate about AV safety and scalable validation frameworks, he actively contributes to advancing the field of autonomous mobility."
+  },
+  {
+    "photo": "sam_stone.jpeg",
+    "name": "Sam Stone",
+    "affiliation": "AI/ML Engineer at Lockheed Martin | IEEE Region 1 Young Professionals Chair",
+    "title": "IEEE Regions 1+2 Young Professionals",
+    "abstract": "Sam Stone is an Artificial Intelligence Engineer at Lockheed Martin, specializing in radar signal processing. Sam has a BS in Electrical Engineering from Binghamton University and has several publications related to signal processing, autonomous vehicles, deep learning, large language models, and radar. Sam has been an active member of the IEEE for 10 years and is currently the IEEE Region 1 Young Professionals Chair and the IEEE Syracuse Section Treasurer."
   }
 ]
