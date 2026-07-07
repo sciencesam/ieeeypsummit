@@ -1,0 +1,283 @@
+[
+  {
+    "day": "friday",
+    "dayLabel": "Friday, August 7",
+    "time": "4:00 PM",
+    "kind": "registration",
+    "title": "Registration Opens",
+    "sessions": []
+  },
+  {
+    "day": "friday",
+    "dayLabel": "Friday, August 7",
+    "time": "5:00 PM",
+    "duration": 60,
+    "kind": "plenary",
+    "title": "Opening Ceremony & Regional Welcome",
+    "sessions": [
+      { "track": "all", "text": "Remarks from IEEE Region 1 & Region 2 leadership and invited guests" }
+    ],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "friday",
+    "dayLabel": "Friday, August 7",
+    "time": "6:00 PM",
+    "duration": 60,
+    "kind": "meal",
+    "title": "Dinner Buffet & Partner Presentations",
+    "sessions": [],
+    "notes": "Dinner provided"
+  },
+  {
+    "day": "friday",
+    "dayLabel": "Friday, August 7",
+    "time": "7:00 PM",
+    "duration": 60,
+    "kind": "plenary",
+    "title": "Evening Session",
+    "sessions": [
+      { "track": "all", "text": "Get Connected: How HTB Can Help You Make an Impact", "speaker": "Stephanie Gillespie - Associate Dean, Tagliatela College of Engineering, University of New Haven · Chair, IEEE Humanitarian Technologies Education Committee", "speakers": ["Stephanie Gillespie"] }
+    ],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "friday",
+    "dayLabel": "Friday, August 7",
+    "time": "8:00 PM",
+    "duration": 60,
+    "kind": "social",
+    "title": "Networking Mixer + Pitch Brainstorming",
+    "sessions": []
+  },
+
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "8:00 AM",
+    "duration": 60,
+    "kind": "meal",
+    "title": "Registration Opens + Breakfast at BU",
+    "sessions": [],
+    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue — Colloquium Room 906"
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "9:00 AM",
+    "duration": 30,
+    "kind": "plenary",
+    "title": "Welcome & YP Leaders Panel",
+    "sessions": [
+      { "track": "all", "text": "Opening remarks: Jill Gostin", "speakers": ["Jill Gostin"] }
+    ],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "9:30 AM",
+    "duration": 15,
+    "kind": "break",
+    "title": "Group Photo",
+    "sessions": []
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "9:45 AM",
+    "duration": 45,
+    "kind": "parallel",
+    "title": "Talks & Panels — Block 1",
+    "sessions": [
+      { "track": "technical", "text": "How are AI agents creating new opportunities for your professionals across various industries?", "speaker": "Shankar Krishnan - AWS", "speakers": ["Shankar Krishnan"] },
+      { "track": "careers", "text": "Constraining AI through the Political Process", "speaker": "Russell Harrison - IEEE USA", "speakers": ["Russell Harrison"] },
+      { "track": "wie", "text": "Panel: Driving Technology & Leadership Management in the Face of Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:45 AM" }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "10:30 AM",
+    "duration": 15,
+    "kind": "break",
+    "title": "Coffee Break",
+    "sessions": []
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "10:45 AM",
+    "duration": 60,
+    "kind": "parallel",
+    "title": "Talks & Panels — Block 2",
+    "sessions": [
+      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition", "speaker": "Yuhan Zheng - Chair, IEEE YP Climate & Sustainability Subcommittee (CSSC)", "speakers": ["Yuhan Zheng"] },
+      { "track": "careers", "text": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow", "speaker": "Phane Mane - Boston Scientific", "speakers": ["Phane Mane"] },
+      { "track": "wie", "text": "WIE Panel continued from Block 1 (ends 11:45 AM)", "muted": true }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "11:45 AM",
+    "duration": 60,
+    "kind": "meal",
+    "title": "Lunch & Partner Presentation",
+    "sessions": [],
+    "notes": "Lunch provided"
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "12:45 PM",
+    "duration": 45,
+    "kind": "parallel",
+    "title": "Talks & Panels — Block 3",
+    "sessions": [
+      { "track": "technical", "text": "Looking Inside AI Language Models: Inspecting and Steering AI as It Runs", "speaker": "Irene Ko - IBM Research", "speakers": ["Irene Ko"] },
+      { "track": "careers", "text": "Staying Relevant in the Age of AI", "speaker": "Aravindhan Anbazhagan - Board of Governors, IEEE Professional Communication Society", "speakers": ["Aravindhan Anbazhagan"] },
+      { "track": "wie", "text": "Speaker Session", "speaker": "Juniyali Nauriyal - CEO & Co-Founder, Photonect", "speakers": ["Juniyali Nauriyal"] }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "1:30 PM",
+    "duration": 15,
+    "kind": "break",
+    "title": "Coffee Break",
+    "sessions": []
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "1:45 PM",
+    "duration": 45,
+    "kind": "parallel",
+    "title": "Talks & Panels — Block 4",
+    "sessions": [
+      { "track": "technical", "text": "Research Talk", "speaker": "Giselle Zeno - MIT Lincoln Laboratory", "speakers": ["Giselle Zeno"] },
+      { "track": "careers", "text": "Architecting the Real-Time Pipelines that Power AI in Financial Markets", "speaker": "Madhushree Kumari - Staff Software Engineer, Visa", "speakers": ["Madhushree Kumari"] },
+      { "track": "wie", "text": "Speaker Session", "speaker": "Vidya Wadkar - Distinguished Engineer, Verizon", "speakers": ["Vidya Wadkar"] }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "2:30 PM",
+    "duration": 45,
+    "kind": "social",
+    "title": "Social, Networking & Pitch-Making",
+    "sessions": []
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "3:15 PM",
+    "duration": 45,
+    "kind": "parallel",
+    "title": "Talks & Panels — Block 5",
+    "sessions": [
+      { "track": "technical", "text": "Autonomous Vehicle Advancements Through AI Integration", "speaker": "Kartik Srinivasan - Staff Systems Engineer, Torc Robotics", "speakers": ["Kartik Srinivasan"] },
+      { "track": "careers", "text": "IEEE Industry AI Labs: Connecting Young Professionals to AI Skills, Tools, and Industry Opportunities", "speaker": "Abir Chermiti - Program Manager, Industry Engagement, IEEE", "speakers": ["Abir Chermiti"] },
+      { "track": "wie", "text": "Speaker Session", "speaker": "To be announced" }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "4:00 PM",
+    "duration": 5,
+    "kind": "break",
+    "title": "Coffee Break",
+    "sessions": []
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "4:05 PM",
+    "duration": 45,
+    "kind": "parallel",
+    "title": "Closing Sessions",
+    "sessions": [
+      { "track": "technical", "text": "Beyond Attendance: Building Sustainable Young Professional Engagement", "speaker": "Hisham Neyaz - IEEE YP Engagement Subcommittee", "speakers": ["Hisham Neyaz"] },
+      { "track": "careers", "text": "YP Listening Lab: What's Working, What's Missing, What's Next", "speaker": "Ed Palacio - IEEE R1 IEC Chair", "speakers": ["Ed Palacio"] },
+      { "track": "wie", "text": "WIE Meet & Greet", "speaker": "Maryam Alibeik", "speakers": ["Maryam Alibeik"] }
+    ]
+  },
+  {
+    "day": "saturday",
+    "dayLabel": "Saturday, August 8",
+    "time": "4:50 PM",
+    "duration": 10,
+    "kind": "plenary",
+    "title": "Day 2 Closing",
+    "sessions": [],
+    "notes": "Plenary — all attendees"
+  },
+
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "8:00 AM",
+    "duration": 60,
+    "kind": "meal",
+    "title": "Registration Opens + Breakfast at BU",
+    "sessions": [],
+    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue"
+  },
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "9:00 AM",
+    "duration": 30,
+    "kind": "plenary",
+    "title": "WIE Keynote",
+    "sessions": [
+      { "track": "all", "text": "Keynote Address: Amplifying Human Potential for an AI-Powered Future", "speaker": "Anuradha C. Bahl - Senior Leader, Northrop Grumman", "speakers": ["Anuradha C. Bahl"] }
+    ],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "9:30 AM",
+    "duration": 30,
+    "kind": "plenary",
+    "title": "YP Panel",
+    "sessions": []
+  },
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "10:00 AM",
+    "duration": 100,
+    "kind": "plenary",
+    "title": "Pitch Competition",
+    "sessions": [
+      { "track": "all", "text": "20–30 teams pitch to a panel of judges" }
+    ],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "11:40 AM",
+    "duration": 20,
+    "kind": "plenary",
+    "title": "Closing Remarks",
+    "sessions": [],
+    "notes": "Plenary — all attendees"
+  },
+  {
+    "day": "sunday",
+    "dayLabel": "Sunday, August 9",
+    "time": "2:00 PM",
+    "duration": 90,
+    "kind": "social",
+    "title": "Optional Boston Tour",
+    "sessions": [],
+    "notes": "Small fee, advance sign-up required"
+  }
+]
