@@ -199,7 +199,7 @@
     "time": "4:00 PM",
     "duration": 45,
     "kind": "parallel",
-    "title": "Closing Sessions",
+    "title": "Talks & Panels — Block 6",
     "sessions": [
       { "track": "technical", "text": "Beyond Attendance: Building Sustainable Young Professional Engagement", "speaker": "Hisham Neyaz - IEEE YP Engagement Subcommittee", "speakers": ["Hisham Neyaz"] },
       { "track": "careers", "text": "YP Listening Lab: What's Working, What's Missing, What's Next", "speaker": "Ed Palacio - IEEE R1 IEC Chair", "speakers": ["Ed Palacio"] },
