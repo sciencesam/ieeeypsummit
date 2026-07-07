@@ -17,7 +17,7 @@
     "sessions": [
       { "track": "all", "text": "Remarks from IEEE Region 1 & Region 2 leadership and invited guests" }
     ],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "friday",
@@ -27,7 +27,7 @@
     "kind": "meal",
     "title": "Dinner Buffet & Partner Presentations",
     "sessions": [],
-    "notes": "Dinner provided"
+    "notes": "Dinner provided · Colloquium Room 906"
   },
   {
     "day": "friday",
@@ -39,7 +39,7 @@
     "sessions": [
       { "track": "all", "text": "Get Connected: How HTB Can Help You Make an Impact", "speaker": "Stephanie Gillespie - Associate Dean, Tagliatela College of Engineering, University of New Haven · Chair, IEEE Humanitarian Technologies Education Committee", "speakers": ["Stephanie Gillespie"] }
     ],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "friday",
@@ -59,7 +59,7 @@
     "kind": "meal",
     "title": "Registration Opens + Breakfast at BU",
     "sessions": [],
-    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue — Colloquium Room 906"
+    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue · Colloquium Room 906"
   },
   {
     "day": "saturday",
@@ -67,11 +67,11 @@
     "time": "9:00 AM",
     "duration": 30,
     "kind": "plenary",
-    "title": "Welcome & YP Leaders Panel",
+    "title": "Welcome & Opening Remarks",
     "sessions": [
-      { "track": "all", "text": "Opening remarks: Jill Gostin", "speakers": ["Jill Gostin"] }
+      { "track": "all", "text": "Opening Remarks", "speaker": "Jill Gostin - 2026 IEEE President-Elect", "speakers": ["Jill Gostin"] }
     ],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "saturday",
@@ -125,7 +125,7 @@
     "kind": "meal",
     "title": "Lunch & Partner Presentation",
     "sessions": [],
-    "notes": "Lunch provided"
+    "notes": "Lunch provided · Colloquium Room 906"
   },
   {
     "day": "saturday",
@@ -159,7 +159,7 @@
     "sessions": [
       { "track": "technical", "text": "Research Talk", "speaker": "Giselle Zeno - MIT Lincoln Laboratory", "speakers": ["Giselle Zeno"] },
       { "track": "careers", "text": "Architecting the Real-Time Pipelines that Power AI in Financial Markets", "speaker": "Madhushree Kumari - Staff Software Engineer, Visa", "speakers": ["Madhushree Kumari"] },
-      { "track": "wie", "text": "Speaker Session", "speaker": "Vidya Wadkar - Distinguished Engineer, Verizon", "speakers": ["Vidya Wadkar"] }
+      { "track": "wie", "text": "Responsible Agentic AI: Designing Human-Centered Autonomy for the Future of Work", "speaker": "Vidya Wadkar - Distinguished Engineer, Verizon", "speakers": ["Vidya Wadkar"] }
     ]
   },
   {
@@ -214,7 +214,7 @@
     "kind": "plenary",
     "title": "Day 2 Closing",
     "sessions": [],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
 
   {
@@ -225,7 +225,7 @@
     "kind": "meal",
     "title": "Registration Opens + Breakfast at BU",
     "sessions": [],
-    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue"
+    "notes": "Egg, Sausage, Fruits, bagels, muffins at venue · Colloquium Room 906"
   },
   {
     "day": "sunday",
@@ -237,7 +237,7 @@
     "sessions": [
       { "track": "all", "text": "Keynote Address: Amplifying Human Potential for an AI-Powered Future", "speaker": "Anuradha C. Bahl - Senior Leader, Northrop Grumman", "speakers": ["Anuradha C. Bahl"] }
     ],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "sunday",
@@ -258,7 +258,7 @@
     "sessions": [
       { "track": "all", "text": "20–30 teams pitch to a panel of judges" }
     ],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "sunday",
@@ -268,7 +268,7 @@
     "kind": "plenary",
     "title": "Closing Remarks",
     "sessions": [],
-    "notes": "Plenary — all attendees"
+    "notes": "Plenary — all attendees · Colloquium Room 906"
   },
   {
     "day": "sunday",

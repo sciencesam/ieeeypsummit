@@ -110,7 +110,7 @@ function renderItem(item) {
     return "";
   }
 
-  const duration = item.duration ? `<span class="schedule-duration">${item.duration} min</span>` : "";
+  const duration = item.duration ? `<span class="schedule-duration">${formatDuration(item.duration)}</span>` : "";
   const notes = item.notes ? `<div class="schedule-notes">${item.notes}</div>` : "";
   const isNow = isHappeningNow(item);
   const nowBadge = isNow ? `<span class="schedule-now-badge">NOW</span>` : "";
@@ -211,4 +211,11 @@ function parseTime12h(timeStr) {
 
 function pad2(n) {
   return String(n).padStart(2, "0");
+}
+
+function formatDuration(minutes) {
+  if (minutes < 60) return `${minutes} min`;
+  const hrs = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  return mins ? `${hrs} hr ${mins} min` : `${hrs} hr`;
 }

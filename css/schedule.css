@@ -154,13 +154,14 @@
 
 .schedule-session .schedule-text {
   display: block;
+  color: #1f2f40;
 }
 
 .schedule-speaker {
   display: block;
-  font-size: 0.85rem;
-  color: #45566b;
-  margin-top: 0.15rem;
+  font-size: 0.82rem;
+  color: #6b7787;
+  margin-top: 0.25rem;
 }
 
 .schedule-continues-tag {
