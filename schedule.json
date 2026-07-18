@@ -25,8 +25,10 @@
     "time": "6:00 PM",
     "duration": 60,
     "kind": "meal",
-    "title": "Dinner Buffet & Partner Presentations",
-    "sessions": [],
+    "title": "Dinner Buffet & Sponsor Spotlights",
+    "sessions": [
+      { "track": "all", "text": "Sponsor Spotlights", "speaker": "6:25-6:35 PM - IEEE Region 3<br>6:35-6:45 PM - IEEE Aerospace and Electronic Systems Society<br>6:45-6:55 PM - IEEE-USA" }
+    ],
     "notes": "Dinner provided · Colloquium Room 906"
   },
   {
@@ -92,7 +94,7 @@
     "sessions": [
       { "track": "technical", "text": "How are AI agents creating new opportunities for your professionals across various industries?", "speaker": "Shankar Krishnan - AWS", "speakers": ["Shankar Krishnan"] },
       { "track": "careers", "text": "Constraining AI through the Political Process", "speaker": "Russell Harrison - IEEE USA", "speakers": ["Russell Harrison"] },
-      { "track": "wie", "text": "Panel: Driving Technology & Leadership Management in the Face of Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
+      { "track": "wie", "text": "Panel: Driving Technology & Leadership Through Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
     ]
   },
   {
@@ -125,7 +127,7 @@
     "kind": "meal",
     "title": "Lunch & Partner Presentation",
     "sessions": [],
-    "notes": "Lunch provided · Colloquium Room 906"
+    "notes": "Lunch provided · MKS sponsor talk 11:50-11:55 AM · Colloquium Room 906"
   },
   {
     "day": "saturday",
@@ -137,7 +139,7 @@
     "sessions": [
       { "track": "technical", "text": "Looking Inside AI Language Models: Inspecting and Steering AI as It Runs", "speaker": "Irene Ko - IBM Research", "speakers": ["Irene Ko"] },
       { "track": "careers", "text": "Staying Relevant in the Age of AI", "speaker": "Aravindhan Anbazhagan - Board of Governors, IEEE Professional Communication Society", "speakers": ["Aravindhan Anbazhagan"] },
-      { "track": "wie", "text": "Speaker Session", "speaker": "Juniyali Nauriyal - CEO & Co-Founder, Photonect", "speakers": ["Juniyali Nauriyal"] }
+      { "track": "wie", "text": "Building a Deep-Tech Startup in an Era of Photonic Acceleration Due to AI", "speaker": "Juniyali Nauriyal - CEO & Co-Founder, Photonect", "speakers": ["Juniyali Nauriyal"] }
     ]
   },
   {
@@ -179,9 +181,9 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 5",
     "sessions": [
-      { "track": "technical", "text": "Autonomous Vehicle Advancements Through AI Integration", "speaker": "Kartik Srinivasan - Staff Systems Engineer, Torc Robotics", "speakers": ["Kartik Srinivasan"] },
+      { "track": "technical", "text": "AI for Autonomous Vehicles: From Foundation Models to Safety Assurance", "speaker": "Kartik Srinivasan - Staff Systems Engineer, Torc Robotics", "speakers": ["Kartik Srinivasan"] },
       { "track": "careers", "text": "IEEE Industry AI Labs: Connecting Young Professionals to AI Skills, Tools, and Industry Opportunities", "speaker": "Abir Chermiti - Program Manager, Industry Engagement, IEEE", "speakers": ["Abir Chermiti"] },
-      { "track": "wie", "text": "Speaker Session", "speaker": "To be announced" }
+      { "track": "wie", "text": "AI and the Future of Software Development", "speaker": "Christine Miyachi - Principal Software Engineering Manager, Microsoft", "speakers": ["Christine Miyachi"] }
     ]
   },
   {
@@ -201,7 +203,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 6",
     "sessions": [
-      { "track": "technical", "text": "Beyond Attendance: Building Sustainable Young Professional Engagement", "speaker": "Hisham Neyaz - IEEE YP Engagement Subcommittee", "speakers": ["Hisham Neyaz"] },
+      { "track": "technical", "text": "YP Engagement Session" },
       { "track": "careers", "text": "YP Listening Lab: What's Working, What's Missing, What's Next", "speaker": "Ed Palacio - IEEE R1 IEC Chair", "speakers": ["Ed Palacio"] },
       { "track": "wie", "text": "WIE Meet & Greet", "speaker": "Maryam Alibeik", "speakers": ["Maryam Alibeik"] }
     ]
@@ -246,7 +248,9 @@
     "duration": 30,
     "kind": "plenary",
     "title": "YP Panel",
-    "sessions": []
+    "sessions": [
+      { "track": "all", "text": "YP Panel", "speaker": "Ahsan Qamer Sheikh - Chair, IEEE Young Professionals Germany", "speakers": ["Ahsan Qamer Sheikh"] }
+    ]
   },
   {
     "day": "sunday",
