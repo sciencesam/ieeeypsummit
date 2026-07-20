@@ -92,9 +92,9 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 1",
     "sessions": [
-      { "track": "technical", "text": "How are AI agents creating new opportunities for your professionals across various industries?", "speaker": "Shankar Krishnan - AWS", "speakers": ["Shankar Krishnan"] },
-      { "track": "careers", "text": "Constraining AI through the Political Process", "speaker": "Russell Harrison - IEEE USA", "speakers": ["Russell Harrison"] },
-      { "track": "wie", "text": "Panel: Driving Technology & Leadership Through Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
+      { "track": "technical", "text": "How are AI agents creating new opportunities for your professionals across various industries?", "speaker": "Shankar Krishnan - Product Management Leader, Stripe", "speakers": ["Shankar Krishnan"] },
+      { "track": "careers", "text": "Constraining AI through the Political Process", "speaker": "Russell Harrison - Managing Director, IEEE-USA", "speakers": ["Russell Harrison"] },
+      { "track": "wie", "text": "Panel: Driving Technology & Leadership Management in the Face of Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
     ]
   },
   {
@@ -159,7 +159,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 4",
     "sessions": [
-      { "track": "technical", "text": "Research Talk", "speaker": "Giselle Zeno - MIT Lincoln Laboratory", "speakers": ["Giselle Zeno"] },
+      { "track": "technical", "text": "Research Talk", "speaker": "Giselle Zeno - Technical Staff, MIT Lincoln Laboratory", "speakers": ["Giselle Zeno"] },
       { "track": "careers", "text": "Architecting the Real-Time Pipelines that Power AI in Financial Markets", "speaker": "Madhushree Kumari - Staff Software Engineer, Visa", "speakers": ["Madhushree Kumari"] },
       { "track": "wie", "text": "Responsible Agentic AI: Designing Human-Centered Autonomy for the Future of Work", "speaker": "Vidya Wadkar - Distinguished Engineer, Verizon", "speakers": ["Vidya Wadkar"] }
     ]

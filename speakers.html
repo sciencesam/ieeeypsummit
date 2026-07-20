@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Speakers - IEEE YP Summit 2026</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/speakers.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -18,15 +19,36 @@
 <div id="site-nav"></div>
 
 <div class="container">
-    <div class="section" id="speakers-list">
+    <div class="section">
+
+    <input
+        type="search"
+        id="speakers-search"
+        class="speakers-search"
+        placeholder="Search speakers by name, company, or topic…"
+        aria-label="Search speakers">
+
+    <div id="speakers-grid" class="speakers-grid">
+        <p>Loading speakers…</p>
+    </div>
+
+    <p class="speakers-more-note"><strong>More speaker bios being added daily! Stay tuned!</strong></p>
+
     </div>
 </div>
 
-<div><b><center>More speaker bios being added daily! Stay Tuned!</center></b></div>
+<div id="speakers-modal" class="speakers-modal" hidden>
+    <div class="speakers-modal-backdrop" data-close></div>
+    <div class="speakers-modal-card" role="dialog" aria-modal="true" aria-labelledby="speakers-modal-name">
+        <button type="button" class="speakers-modal-close" data-close aria-label="Close">&times;</button>
+        <div id="speakers-modal-body"></div>
+    </div>
+</div>
 
 <div id="site-footer"></div>
 
-<script src="scripts/speakers.js"></script>
 <script src="scripts/load-components.js"></script>
+<script src="scripts/speakers.js"></script>
+
 </body>
 </html>
