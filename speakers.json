@@ -53,7 +53,7 @@
     "name": "Irene Ko",
     "affiliation": "",
     "title": "Looking Inside AI Language Models: Inspecting and Steering AI as It Runs",
-    "abstract": "Dr. Ching-Yun (Irene) Ko is a Staff Research Scientis at IBM Research. Her research focuses primarily on trustworthy machine learning. Her research focuses on trustworthy machine learning and large language models, particularly model safety, alignment, and robustness across training-time and runtime interventions. Dr. Ko has published papers in esteemed AI/ML conferences, including ICML, NeurIPS, ICLR, IROS, IJCAI, and AAAI, where she has given talks and often served as a program committee member or a reviewer. Her research also extends to efficient scientific computing, in which she has authored papers in renowned journals and conferences such as Automatica, IEEE Transactions on Image Processing, and IEEE Conference on Decision and Control. Dr. Ko received her Ph.D. in electrical engineering and computer science from the Massachusetts Institute of Technology, Cambridge, USA, in 2024."
+    "abstract": "Dr. Ching-Yun (Irene) Ko is a Staff Research Scientist at IBM Research. Her research focuses primarily on trustworthy machine learning. Her research focuses on trustworthy machine learning and large language models, particularly model safety, alignment, and robustness across training-time and runtime interventions. Dr. Ko has published papers in esteemed AI/ML conferences, including ICML, NeurIPS, ICLR, IROS, IJCAI, and AAAI, where she has given talks and often served as a program committee member or a reviewer. Her research also extends to efficient scientific computing, in which she has authored papers in renowned journals and conferences such as Automatica, IEEE Transactions on Image Processing, and IEEE Conference on Decision and Control. Dr. Ko received her Ph.D. in electrical engineering and computer science from the Massachusetts Institute of Technology, Cambridge, USA, in 2024."
   },
   {
     "photo": "Abir Chermiti.png",
@@ -66,8 +66,8 @@
     "photo": "Kartik_Srinivasan.jpeg",
     "name": "Kartik Srinivasan",
     "affiliation": "Staff Systems Engineer ",
-    "title": "",
-    "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience in automotive and autonomous systems, he has played a pivotal role in developing HIL V&V strategies for Level 4 autonomous trucks at Torc Robotics. His expertise includes designing HIL test environments, system integration, and test automation for safety-critical vehicle systems. Previously, Kartik led HIL validation teams at Motional, contributing to the development of Drive-by-Wire and Perception subsystem testing frameworks. His work at Nexteer Automotive and LG Chemical Power further strengthened his experience in mechatronic test benches, functional safety, and battery management systems. Holding a Master’s degree in Electrical Engineering from Michigan Technological University, Kartik has pioneered innovative HIL testing methodologies. Passionate about AV safety and scalable validation frameworks, he actively contributes to advancing the field of autonomous mobility."
+    "title": "AI for Autonomous Vehicles: From Foundation Models to Safety Assurance",
+    "abstract": "Kartik Srinivasan is a Staff Systems Engineer specializing in Hardware-in-the-Loop (HIL) Verification & Validation (V&V) for autonomous vehicles. With over a decade of experience across automotive and autonomous mobility systems, he has played a pivotal role in shaping HIL V&V strategies for Level-4 autonomous trucks at Torc Robotics.\n\nHis expertise spans HIL architecture design, system integration, closed-loop simulation, and test automation for safety-critical vehicle functions. Previously, Kartik led HIL validation initiatives at Motional, where he contributed to the development of Drive-by-Wire and Perception subsystem testing frameworks. His earlier work at Nexteer Automotive and LG Chemical Power strengthened his foundation in mechatronic test benches, functional safety engineering, and battery management systems. Kartik holds a Master's degree in Electrical Engineering from Michigan Technological University. He is passionate about AV safety, AI-assisted validation, and scalable test frameworks, and has actively contributed to the advancement of autonomous mobility with 4 U.S. patents filed (Patent Pending).\n\nHe is an IEEE Senior Member and, in Dec 2025, was inducted as a Professional Member of IEEE Eta Kappa Nu (HKN) into the Eta Chapter of the Board of Governors, recognizing his sustained technical contributions and leadership in the field."
   },
   {
     "photo": "sam_stone.jpeg",
@@ -75,5 +75,82 @@
     "affiliation": "AI/ML Engineer at Lockheed Martin | IEEE Region 1 Young Professionals Chair",
     "title": "IEEE Regions 1+2 Young Professionals",
     "abstract": "Sam Stone is an Artificial Intelligence Engineer at Lockheed Martin, specializing in radar signal processing. Sam has a BS in Electrical Engineering from Binghamton University and has several publications related to signal processing, autonomous vehicles, deep learning, large language models, and radar. Sam has been an active member of the IEEE for 10 years and is currently the IEEE Region 1 Young Professionals Chair and the IEEE Syracuse Section Treasurer."
+  },
+  {
+    "photo": "Juniyali Nauriyal.jpg",
+    "name": "Juniyali Nauriyal",
+    "affiliation": "CEO and Co-Founder of Photonect",
+    "title": "Building a Deep-Tech Startup in an Era of Photonic Acceleration Due to AI",
+    "abstract": "Juniyali Nauriyal is the CEO and Co-Founder of Photonect. She holds a master's degree in optics and a PhD from the University of Rochester's Institute of Optics. Juniyali is the co-inventor of laser-assisted fiber-attach technology, which she is now commercializing through Photonect. As CEO, she leads a growing startup at the intersection of advanced photonic packaging and real-world industrial deployment. Her work has earned recognition through highly competitive programs, including the Activate Fellowship and the Luminate Accelerator. In 2025, she was named Emerging Technology Woman of the Year. Juniyali serves as Vice Chair of IEEE WIE Rochester, where she actively supports initiatives that empower women in engineering."
+  },
+  {
+    "photo": "Madhushree Kumari.jpg",
+    "name": "Madhushree Kumari",
+    "affiliation": "Staff Software Engineer at Visa | Chair, IEEE Young Professionals Atlanta",
+    "title": "Architecting the Real-Time Pipelines that Power AI in Financial Markets",
+    "abstract": "Madhushree Kumari is a Staff Software Engineer at Visa with over 13 years of experience architecting scalable distributed systems. She currently leads a global team within Visa's FX trading platform, specializing in resilient microservices and cloud-native solutions. Her career spans impactful engineering roles at SAP, McAfee, IBM, and FIS.\n\nAn alumna of Georgia Tech and currently pursuing AI studies at Stanford, Madhushree is a recognized leader in the tech community. She serves as Chair for IEEE Young Professionals Atlanta, Secretary for the IEEE Atlanta Section, and is a Founding Member of WomenTech Network. Her contributions earned her the 2025 WomenTech Global Silver Award for Software Engineering Leader of the Year. Beyond engineering, she is a frequent keynote speaker, peer reviewer, and mentor for organizations including AnitaB.org and Georgia Tech."
+  },
+  {
+    "photo": "Yuhan Sicily Zheng.png",
+    "name": "Yuhan (Sicily) Zheng",
+    "affiliation": "",
+    "title": "A Guidebook on AI's Applications in the Energy Transition",
+    "abstract": "Yuhan (Sicily) Zheng, PhD student in Geography at the National University of Ireland.\n\nCurrently works as the Executive Assistant to the CEO, Nobel Sustainability Trust (NST).\n\nShe is the chair at the IEEE Young Professional Climate and Sustainability subcommittee. She is co-chairing the United Nations Economic Commission for Europe (UNECE) Youth Group on Resilient Energy Systems (YGRES)."
+  },
+  {
+    "photo": "Giselle Zeno.jpg",
+    "name": "Giselle Zeno",
+    "affiliation": "MIT Lincoln Laboratory",
+    "title": "Does your AI Really See What You Think It Sees?",
+    "abstract": "Dr. Giselle Zeno is a technical staff member in the Artificial Intelligence (AI) Technology and Systems Group at MIT Lincoln Laboratory. She is an IEEE Senior Member and a member of the ACM society. She has published multiple research papers in top-ranked machine learning (ML) conferences and workshops. She has also served as organizing chair and technical committee for workshops on the topics of AI assurance and graph machine learning, and as a reviewer for IEEE journals, ACM conferences, and the Tapia conference. Prior to her career as an AI and ML researcher, she worked in industry as a senior software engineer.\n\nDr. Zeno earned her BS degree in computer science from the University of Puerto Rico at Bayamon in 2010, graduating Magna Cum Laude. She was named Model Student by the Department of Computer Science and received the Honors Program scholarship throughout her undergraduate studies. She completed her MS and PhD degrees in computer science at Purdue University in 2021 and 2023, respectively. Her doctoral studies were supported by the GEM Fellowship, sponsored by Intel Corporation, and the Frederick N. Andrews Fellowship from Purdue University."
+  },
+  {
+    "photo": "Ed Palacio.png",
+    "name": "Ed Palacio",
+    "affiliation": "IEEE R1 IEC Chair",
+    "title": "YP Listening Lab: What's Working, What's Missing, What's Next",
+    "abstract": "Ed Palacio is President of P&L Technical Management Solutions, a small business focused on technology, program management, and business development for the military and civilian market. As a business executive, he has over 40 years of experience directing the development and production of complex military electronic systems. He has held Profit and Loss responsibility at the Business Unit and Sector levels, as well as functional lead positions in Program Management, Engineering, and Operations. Prior to his current position, he was VP of Program Management and Business Operations for ITT/Exelis Electronic Systems. Before joining ITT, Ed was VP of EDO Corporation's Electronic Warfare Sector. He is or has been a member of multiple advisory boards in industry, academia, and professional organizations. He currently serves on the Board of Directors of Werlatone Corporation. He was the 2023 IEEE-USA President and the 2020-2021 director of IEEE's Northeast Region, has sat on multiple Executive Boards for IEEE, and has served on Industry Advisory Boards for The Cooper Union School of Engineering, SUNY Stony Brook Engineering Department, and the New York Institute of Technology College of Engineering and Computing Sciences Dean Executive Advisory Board. He teaches at Stony Brook University's Department of Technology and Society. Ed holds a BEE from the Cooper Union School of Engineering and Science and two MS degrees in Electrical Engineering and Technology Management from the Polytechnic Institute of New York."
+  },
+  {
+    "photo": "Michele Shindelman.jpg",
+    "name": "Michele Shindelman",
+    "affiliation": "Vice President, Global Human Resources at MKS Inc.",
+    "title": "WIE Panel: Driving Technology & Leadership Management in the face of Transformative Disruption",
+    "abstract": "Ms. Shindelman serves as Vice President, Global Human Resources of MKS Inc. Ms. Shindelman joined MKS in 2016 and has held positions of increasing responsibility within the Human Resources organization. Most recently, she has served as Vice President, Global Human Resources, following roles as Senior Director of Human Resources and Human Resources Director.\n\nPrior to joining MKS, Ms. Shindelman held Human Resources leadership positions at E Ink Corporation, Symmetricom, American Superconductor Corporation, and the Keystone Group, supporting global organizations across the energy, telecommunications, materials, and financial services industries. Throughout her career, she has partnered closely with executive and management teams to develop and implement Human Resources strategies that align with business objectives, support growth, and enable organizational transformation.\n\nMs. Shindelman holds a B.A. in Economics from Brandeis University and an M.B.A. in Management from Boston College."
+  },
+  {
+    "photo": "Varshitha Manjunath.jpg",
+    "name": "Varshitha Manjunath",
+    "affiliation": "Assistant Professor and Cybersecurity Program Lead at Lasell University",
+    "title": "WIE Panel: Driving Technology & Leadership Management in the face of Transformative Disruption",
+    "abstract": "Varshitha Manjunath is an Assistant Professor and Cybersecurity Program Lead at Lasell University, Secretary of the IEEE Boston Section, Faculty Advisor for Women in CyberSecurity (WiCyS) Lasell Chapter, and Co-Director of Tech Walk Boston. She plays an active role in leading professional and technical communities, contributing to the advancement of cybersecurity and emerging technologies."
+  },
+  {
+    "photo": "Vasundhara (Vasu) Bhupathi.png",
+    "name": "Vasundhara (Vasu) Bhupathi",
+    "affiliation": "Strategic Account Leader & SAP Business AI Leader - Americas, DXC Technology | IEEE Senior Member",
+    "title": "WIE Panel: Driving Technology & Leadership Management in the face of Transformative Disruption",
+    "abstract": "Vasu Bhupathi leads at the intersection of enterprise technology, governance, and people, exactly where transformative disruption is felt hardest. Over 23 years, she has translated AI strategy into operational reality: architected and sponsored development of an Agentic AI solution for a global pharmaceutical client; served as a Strategic Delivery leader sustaining 59+ consecutive months of 100% SLA compliance across a multimillion-dollar Aerospace & Defense portfolio; and led teams of 60+ through modernization, cloud migration, and Scaled Agile adoption.\n\nHer leadership extends beyond the enterprise. As Chairperson of the IEEE Connecticut Women in Engineering Executive Committee and a co-author of four peer-reviewed publications, she brings research rigor to workforce conversations. As a FIRST Robotics coach and judge evaluating 50+ student teams annually, she works daily with the next generation preparing them to enter the workforce, giving her a rare, ground-level view of what intergenerational leadership actually requires.\n\nVasu doesn't theorize about disruption. She builds the systems, mentors the people, and sets the governance that determines who thrives through it."
+  },
+  {
+    "photo": "Vidya Wadkar.png",
+    "name": "Vidya Wadkar",
+    "affiliation": "Distinguished Engineer at Verizon",
+    "title": "Responsible Agentic AI: Designing Human-Centered Autonomy for the Future of Work",
+    "abstract": "Vidya Wadkar is a Distinguished Engineer at Verizon with more than 18 years of experience in enterprise technology, AI systems architecture, cloud-native modernization, intelligent automation, and large-scale digital transformation. Her work focuses on designing practical, scalable AI solutions that augment professionals, improve operational efficiency, and strengthen enterprise decision-making. She has led and contributed to initiatives involving conversational AI, agentic AI frameworks, observability-driven intelligence, secure platform modernization, and automation for complex business environments."
+  },
+  {
+    "photo": "Christine Miyachi.jpg",
+    "name": "Christine Miyachi",
+    "affiliation": "Principal Software Engineering Manager at Microsoft | Chair, IEEE AI Coalition",
+    "title": "AI and the Future of Software Development",
+    "abstract": "Christine Miyachi has almost 30 years of experience working for startups and large corporations. Currently, she is a Principal Software Engineering Manager in the Cloud+AI division at Microsoft, where she works in the Health and Life Sciences division. She holds two MIT degrees: an MS in technology and policy/electrical engineering and computer science and an MS in System Design and Management. See more about Chris at www.christinemiyachi.com. Chris was the past Chair of IEEE Future Directions and currently leads the IEEE AI Coalition. Fun fact: She has run 30+ marathons and just got her eighth world marathon star medal in South Africa this year. https://www.linkedin.com/in/chris-miyachi-a31835"
+  },
+  {
+    "photo": "Ahsan Qamer Sheikh.jpg",
+    "name": "Ahsan Qamer Sheikh",
+    "affiliation": "Planning Engineer for Rail Infrastructure at Ramboll Deutschland GmbH | Chair, IEEE Young Professionals Germany",
+    "title": "YP Panel",
+    "abstract": "Ahsan Qamer Sheikh is a Planning Engineer for Rail Infrastructure at Ramboll Deutschland GmbH in Munich, Germany, where he works on the planning and design of large-scale rail infrastructure and transportation projects across Germany. He holds a master's degree in Infrastructure Planning from the University of Stuttgart, specializing in transportation systems and infrastructure development.\n\nAhsan has been an active IEEE volunteer for more than 12 years. He currently serves as Chair of IEEE Young Professionals Germany, where he leads initiatives that promote professional development, networking, and collaboration among early-career engineers and technology professionals. He also serves as the Young Professional Representative for the IEEE Professional Communication Society and as an Initiative Lead at IEEE MGA SAC.\n\nIn recognition of his contributions to IEEE and the engineering community, Ahsan received the 2025 IEEE MGA Young Professional Achievement Award and the 2025 IEEE Young Professionals Hall of Fame Award for sustainable contributions and impact.\n\nAhsan is committed to strengthening collaboration between industry and the IEEE community, with a particular focus on creating opportunities for students and Young Professionals. His initiatives aim to foster professional networking, mentorship, industry engagement, and knowledge exchange, helping early-career engineers develop the skills and connections needed to thrive."
   }
 ]

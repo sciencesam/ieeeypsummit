@@ -74,11 +74,24 @@
   border-top: 4px solid #c49a2c;
 }
 
+.sponsor-profile-silver {
+  border-color: #c7d0d9;
+  border-top: 4px solid #9aa7b4;
+}
+
+.sponsor-profile-bronze {
+  border-color: #d8aa83;
+  border-top: 4px solid #b47b4a;
+}
+
 .sponsor-logo {
   display: block;
   width: 100%;
-  max-width: 260px;
+  max-width: 190px;
+  max-height: 130px;
   height: auto;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .sponsor-profile p {
