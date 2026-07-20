@@ -150,35 +150,45 @@ function normalizeName(str) {
     .trim();
 }
 
-function findSessionsForSpeaker(name) {
-  const target = normalizeName(name);
-  const matches = [];
+function findSessionsForSpeaker(speaker) {
+  const target = normalizeName(speaker.name);
+  const raw = [];
 
   schedule.forEach((item) => {
     item.sessions.forEach((s) => {
       if ((s.speakers || []).some((n) => normalizeName(n) === target)) {
-        matches.push({
-          dayLabel: item.dayLabel,
-          time: item.time,
-          duration: item.duration,
-          room: TRACK_ROOMS[s.track]
-        });
+        raw.push({ item, s });
       }
     });
   });
 
-  return matches;
+  const multiSession = raw.length > 1;
+
+  return raw.map(({ item, s }) => {
+    const usePersonalTitle =
+      speaker.title && (item.kind === "parallel" || !multiSession);
+    return {
+      dayLabel: item.dayLabel,
+      time: item.time,
+      duration: item.duration,
+      room: TRACK_ROOMS[s.track],
+      sessionTitle: usePersonalTitle ? speaker.title : item.title
+    };
+  });
 }
 
 function renderSessionSchedule(speaker) {
-  const matches = findSessionsForSpeaker(speaker.name);
+  const matches = findSessionsForSpeaker(speaker);
   if (matches.length === 0) return "";
 
   return matches
     .map((m) => {
       const timeRange = m.duration ? formatTimeRange(m.time, m.duration) : m.time;
       const room = m.room ? ` · ${m.room}` : "";
-      return `<div class="speakers-modal-session-when">${m.dayLabel} · ${timeRange}${room}</div>`;
+      return `
+        ${m.sessionTitle ? `<div class="speakers-modal-session-title">${m.sessionTitle}</div>` : ""}
+        <div class="speakers-modal-session-when">${m.dayLabel} · ${timeRange}${room}</div>
+      `;
     })
     .join("");
 }
@@ -198,7 +208,7 @@ function openModal(speaker) {
     ${renderPhoto(speaker)}
     <h3 id="speakers-modal-name">${speaker.name}</h3>
     ${speaker.affiliation ? `<h4>${speaker.affiliation}</h4>` : ""}
-    ${speaker.title ? `<div class="speakers-modal-session"><span class="speakers-modal-session-label">Session Title</span><div class="speakers-modal-session-title">${speaker.title}</div>${renderSessionSchedule(speaker)}</div>` : ""}
+    ${renderSessionSchedule(speaker) ? `<div class="speakers-modal-session"><span class="speakers-modal-session-label">Session</span>${renderSessionSchedule(speaker)}</div>` : ""}
     ${formattedAbstract ? `<div class="speakers-modal-abstract">${formattedAbstract}</div>` : ""}
   `;
 

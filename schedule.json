@@ -94,7 +94,7 @@
     "sessions": [
       { "track": "technical", "text": "How are AI agents creating new opportunities for your professionals across various industries?", "speaker": "Shankar Krishnan - Product Management Leader, Stripe", "speakers": ["Shankar Krishnan"] },
       { "track": "careers", "text": "Constraining AI through the Political Process", "speaker": "Russell Harrison - Managing Director, IEEE-USA", "speakers": ["Russell Harrison"] },
-      { "track": "wie", "text": "Panel: Driving Technology & Leadership Management in the Face of Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
+      { "track": "wie", "text": "Panel: Driving Technology & Leadership Management in the Face of Transformative Disruption", "speaker": "Moderators: Deyasini Majumdar & Maryam Alibek<br>Panelists: Jill Gostin · Michele Shindelman · Varshitha Manjunath · Vasundhara Bhupathi", "speakers": ["Deyasini Majumdar", "Maryam Alibek", "Jill Gostin", "Michele Shindelman", "Varshitha Manjunath", "Vasundhara (Vasu) Bhupathi"], "continuesNote": "Continues through Block 2 — ends 11:30 AM" }
     ]
   },
   {
@@ -114,7 +114,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 2",
     "sessions": [
-      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition", "speaker": "Yuhan Zheng - Chair, IEEE YP Climate & Sustainability Subcommittee (CSSC)", "speakers": ["Yuhan Zheng"] },
+      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition", "speaker": "Yuhan (Sicily) Zheng - Chair, IEEE Young Professionals (YP) Climate and Sustainability Subcommittee (CSSC)", "speakers": ["Yuhan (Sicily) Zheng"] },
       { "track": "careers", "text": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow", "speaker": "Phane Mane - Boston Scientific", "speakers": ["Phane Mane"] },
       { "track": "wie", "text": "WIE Panel continued from Block 1 (ends 11:30 AM)", "muted": true }
     ]
