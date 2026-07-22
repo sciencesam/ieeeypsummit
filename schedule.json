@@ -114,7 +114,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 2",
     "sessions": [
-      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition", "speaker": "Yuhan (Sicily) Zheng - Chair, IEEE Young Professionals (YP) Climate and Sustainability Subcommittee (CSSC)", "speakers": ["Yuhan (Sicily) Zheng"] },
+      { "track": "technical", "text": "AI for Autonomous Vehicles: From Foundation Models to Safety Assurance", "speaker": "Kartik Srinivasan - Staff Systems Engineer, Torc Robotics", "speakers": ["Kartik Srinivasan"] },
       { "track": "careers", "text": "The AI Career Playbook: Where to Start, What to Learn, and How to Grow", "speaker": "Phane Mane - Boston Scientific", "speakers": ["Phane Mane"] },
       { "track": "wie", "text": "WIE Panel continued from Block 1 (ends 11:30 AM)", "muted": true }
     ]
@@ -181,7 +181,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 5",
     "sessions": [
-      { "track": "technical", "text": "AI for Autonomous Vehicles: From Foundation Models to Safety Assurance", "speaker": "Kartik Srinivasan - Staff Systems Engineer, Torc Robotics", "speakers": ["Kartik Srinivasan"] },
+      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition", "speaker": "Yuhan (Sicily) Zheng - Chair, IEEE Young Professionals (YP) Climate and Sustainability Subcommittee (CSSC)", "speakers": ["Yuhan (Sicily) Zheng"], "continuesNote": "Continues through Block 6 — ends 4:45 PM" },
       { "track": "careers", "text": "IEEE Industry AI Labs: Connecting Young Professionals to AI Skills, Tools, and Industry Opportunities", "speaker": "Abir Chermiti - Program Manager, Industry Engagement, IEEE", "speakers": ["Abir Chermiti"] },
       { "track": "wie", "text": "AI and the Future of Software Development", "speaker": "Christine Miyachi - Principal Software Engineering Manager, Microsoft", "speakers": ["Christine Miyachi"] }
     ]
@@ -203,7 +203,7 @@
     "kind": "parallel",
     "title": "Talks & Panels — Block 6",
     "sessions": [
-      { "track": "technical", "text": "YP Engagement Session" },
+      { "track": "technical", "text": "A Guidebook on AI's Applications in the Energy Transition continued (ends 4:45 PM)", "muted": true },
       { "track": "careers", "text": "YP Listening Lab: What's Working, What's Missing, What's Next", "speaker": "Ed Palacio - IEEE R1 IEC Chair", "speakers": ["Ed Palacio"] },
       { "track": "wie", "text": "WIE Meet & Greet", "speaker": "Maryam Alibeik", "speakers": ["Maryam Alibeik"] }
     ]
