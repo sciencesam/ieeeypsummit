@@ -176,39 +176,48 @@
             gap: 0.6rem;
         }
 
-                <section class="sponsor-tier sponsor-tier-bronze" aria-labelledby="bronze-sponsors">
-                    <h3 id="bronze-sponsors">Bronze</h3>
-                    <div class="sponsor-grid">
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-bu"
-                                src="resources/sponsorship/ece-black.png"
-                                alt="Boston University Department of Electrical and Computer Engineering logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-tems"
-                                src="resources/sponsorship/WITEMS logo.png"
-                                alt="IEEE TEMS Women in Engineering logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-sscs"
-                                src="resources/sponsorship/SSCS_logo.jpg"
-                                alt="IEEE Solid State Circuits Society logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <!-- TODO: Add IEEE USA Career Development Committee logo when available. -->
-                    </div>
-                </section>
+        .past-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.5rem 1.1rem;
+            border: 1.5px solid #c8d4e4;
+            border-radius: 6px;
+            color: #004f9f;
+            font-weight: 600;
+            font-size: 0.88rem;
+            text-decoration: none;
+            transition: border-color 0.15s, background 0.15s;
+        }
+        .past-link:hover {
+            border-color: #004f9f;
+            background: #f0f5ff;
+            text-decoration: none;
+        }
+        .past-link i { font-size: 0.78rem; opacity: 0.6; }
+
+        /* ── Footer ── */
+        footer {
+            margin-top: auto;
+            background: #f0f2f5;
+            border-top: 1px solid #dde3ec;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.82rem;
+            color: #8a9aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="dropdown">
+            <button class="dropbtn">Past Summits &#9662;</button>
+            <div class="dropdown-content">
+                <div class="dropdown-content-inner">
+                    <a href="/2026/">2026 Summit</a>
+                    <a href="/2025/index.html">2025 Summit</a>
+                </div>
             </div>
         </div>
     </div>
