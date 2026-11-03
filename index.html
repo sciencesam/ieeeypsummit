@@ -3,225 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEEE Young Professionals Summit 2026</title>
+    <title>IEEE Young Professionals Summit 2027</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <div
-        id="site-header"
-        data-title="IEEE Young Professionals Summit 2026"
-        data-subtitle="Artificial Intelligence and the Future of Human Work"
-        >
-    </div>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    <div id="site-nav"></div>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1a2a3a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
-    <div class="container">
+        /* ── Top bar ── */
+        .topbar {
+            background: #003680;
+            padding: 0.6rem 2rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
 
-        <div class="section">
-            <h2>About the Summit</h2>
-            <div class="about-partners">
-                <p class="partner-kicker">In collaboration with</p>
-                <div class="partner-lockup" aria-label="Summit partner logos">
-                    <img src="resources/IEEE R1+2.png" alt="IEEE Regions 1 and 2 logo">
-                    <span aria-hidden="true"></span>
-                    <img src="resources/IEEEYoungProfessionalsLogoTM_RGB_Stacked.png" alt="IEEE Young Professionals logo">
-                    <span aria-hidden="true"></span>
-                    <img src="resources/WIE_logo_purple_RGB_300_transparent.png" alt="IEEE Women in Engineering logo">
-                </div>
-            </div>
-            <p>
-                The <strong>IEEE Young Professionals (YP) Summit</strong> is an annual gathering designed to empower the next generation of IEEE leaders. 
-                This dynamic event provides a collaborative platform where young professionals come together to shape the future of technology and leadership. New this year, the Summit is excited to collaborate with <strong>IEEE R1-R2 Women In Engineering (WiE)</strong> to introduce a dedicated WIE track, highlighting the voices, achievements, and leadership of women in technology.
-            </p>
-            <p>
-                This year, we focus specifically on the transformative role of technology with our theme:
-                <span class="highlight"><strong>Artificial Intelligence and the Future of Human Work</strong></span>.
-                Join us in Boston to be part of impactful conversations and initiatives that will influence artificial intelligence and the future of human work.
-            </p>
-        </div>
+        .dropdown { position: relative; display: inline-block; }
 
-        <div class="section">
-            <h2>Event Details</h2>
-            <div class="event-details">
-                <div>
-                    <i class="fa-solid fa-people-group" style="font-size: 3rem;"></i>
-                    <h3>Who</h3>
-                    <p>120-150 Young Professionals from IEEE Regions 1 and 2, and global YP leaders</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-calendar-days" style="font-size: 3rem;"></i>
-                    <h3>When</h3>
-                    <p>August 07-09, 2026</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-location-dot" style="font-size: 3rem;"></i>
-                    <h3>Where</h3>
-                    <p>
-                        <a href="https://maps.app.goo.gl/qzZd25q8Ro3h3nj99" target="_blank">
-                            Boston University Photonics Building (PHO), Boston
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        .dropbtn {
+            background: none;
+            border: 1px solid rgba(255,255,255,0.35);
+            color: white;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            padding: 0.35rem 0.85rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .dropbtn:hover { background: rgba(255,255,255,0.1); }
 
-        <div style="text-align: center;">
-            <h4>Early Registration ends July 15</p>
-            <a class="register-btn" href="https://events.vtools.ieee.org/m/555473" target="_blank" rel="noopener">Register Now</a>
-        </div>
-        <!-- <center>
-            <b>Registration is back open until Wednesday, August 05 at midnight!</b>
-        </center> -->
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            padding-top: 6px;
+            min-width: 210px;
+            background: transparent;
+            z-index: 100;
+        }
+        .dropdown-content-inner {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.14);
+            overflow: hidden;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 0.65rem 1rem;
+            color: #1a2a3a;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .dropdown-content a:hover { background: #f0f4fa; }
+        .dropdown:hover .dropdown-content { display: block; }
 
-        <div class="section">
-            <h2>Summit Highlights</h2>
-            <div class="summit-highlights" style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; text-align:center;">
-                <div class="highlight-card" style="background-color:#F1F5FA; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-user-gear" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Impact on AI and the Future of Human Work</h4>
-                    <p>Explore how artificial intelligence is reshaping the nature of work, enhancing human productivity, and creating new opportunities for collaboration between humans and intelligent systems.</p>
-                </div>
-                <div class="highlight-card" style="background-color:#F9F4EF; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-chart-line" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Leverage the IEEE to advance your career</h4>
-                    <p>Utilize IEEE resources and networks to enhance professional growth.</p>
-                </div>
-                <div class="highlight-card" style="background-color:#F7F3FA; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-chalkboard-user" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>IEEE YP Leadership Training</h4>
-                    <p>Gain leadership skills tailored specifically for Young Professional chairs.</p>
-                </div>
-                <div class="highlight-card" style="background-color:#F4F9F5; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-handshake" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Networking with peers and global leaders</h4>
-                    <p>Build lasting professional relationships with industry experts.</p>
-                </div>
-                <div class="highlight-card" style="background-color:#FAF4F6; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-city" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Explore Boston with other Young Professionals</h4>
-                    <p>Discover iconic Boston landmarks with your fellow attendees.</p>
-                </div>
-            </div>
-        </div>
+        /* ── Hero ── */
+        .hero {
+            background: linear-gradient(145deg, #003680 0%, #004f9f 55%, #0068cc 100%);
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem 4.5rem;
+            position: relative;
+            overflow: hidden;
+        }
 
-        <div class="section">
-            <h2>Program Topics</h2>
-            <div class="program-topics" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; text-align: center;">
-                <div class="topic-card" style="background-color: #F7F3FF; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-microchip" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Technical Innovation & Applied AI</h4>
-                    <p>Cutting-edge developments and practical implementation of AI across various engineering disciplines.</p>
-                </div>
-                <div class="topic-card" style="background-color: #FFFAF0; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-arrow-trend-up" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>AI in Careers & Professional Growth</h4>
-                    <p>Navigating the evolving workplace and leveraging technology for career advancement.</p>
-                </div>
-                <div class="topic-card" style="background-color: #FFF8F0; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-venus" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Women in Engineering<br>(WIE)</h4>
-                    <p>Leadership, advocacy, and fostering inclusive innovation within the AI space.</p>
-                </div>
-                <div class="topic-card" style="background-color: #F3F8FF; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-user-tie" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>YP Leadership & Membership Advancement</h4>
-                    <p>Strengthening leadership skills and increasing membership engagement.</p>
-                </div>
-                <div class="topic-card" style="background-color: #F0FFF4; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-briefcase" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>Project Management, Entrepreneurship & Finances</h4>
-                    <p>Managing projects, fostering entrepreneurship, and financial planning.</p>
-                </div>
-                <div class="topic-card" style="background-color: #FFF5F7; border-radius:8px; padding:1rem; width:250px;">
-                    <i class="fa-solid fa-robot" style="font-size:2.5rem;color:#004f9f;"></i>
-                    <h4>AI-driven Solutions & Ethical Considerations</h4>
-                    <p>Exploring innovative AI technologies and addressing ethical challenges.</p>
-                </div>
-            </div>
-        </div>
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle at 15% 85%, rgba(255,255,255,0.04) 0%, transparent 50%),
+                radial-gradient(circle at 85% 15%, rgba(255,255,255,0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
 
-        <!-- <div class="section">
-            <h2>Registration & Contact</h2>
-            <div style="text-align: center;">
-                <a class="register-btn" href="https://events.vtools.ieee.org/m/555473" target="_blank" rel="noopener">Register Now</a>
-            </div>
-            <center>
-                <b>Registration is back open until Wednesday, August 5 at midnight!</b>
-            </center>
-        </div> -->
+        .hero-logo {
+            height: 90px;
+            width: auto;
+            margin-bottom: 2rem;
+            filter: brightness(0) invert(1);
+            opacity: 0.92;
+        }
 
-        <div class="section">
-            <h2>Sponsors</h2>
-            <div class="homepage-sponsors" aria-label="IEEE Young Professionals Summit 2026 sponsors">
-                <section class="sponsor-tier sponsor-tier-gold" aria-labelledby="gold-sponsors">
-                    <h3 id="gold-sponsors">Gold</h3>
-                    <div class="sponsor-grid">
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-r12"
-                                src="resources/IEEE R1+2.png"
-                                alt="IEEE Regions 1 and 2 logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-r12"
-                                src="resources/sponsorship/Copy of R1+2_YP_stack.png"
-                                alt="IEEE Regions 1 and 2 Young Professionals logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-wie"
-                                src="resources/R1+2_WIE_logo.png"
-                                alt="IEEE Women in Engineering logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <a class="sponsor-card" href="https://www.mks.com" target="_blank" rel="noopener">
-                            <img
-                                class="sponsor-logo sponsor-logo-mks"
-                                src="resources/sponsorship/MKS-Logo.jpg"
-                                alt="MKS logo"
-                                width="600"
-                                height="160"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </a>
-                    </div>
-                </section>
+        .hero-eyebrow {
+            display: inline-block;
+            background: #1ca64d;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            padding: 0.28rem 0.9rem;
+            border-radius: 20px;
+            margin-bottom: 1.5rem;
+        }
 
-                <section class="sponsor-tier sponsor-tier-silver" aria-labelledby="silver-sponsors">
-                    <h3 id="silver-sponsors">Silver</h3>
-                    <div class="sponsor-grid">
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-region3"
-                                src="resources/sponsorship/Region3_Logo_RGB_Blue.webp"
-                                alt="IEEE Region 3 logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                        <div class="sponsor-card">
-                            <img
-                                class="sponsor-logo sponsor-logo-aess"
-                                src="resources/sponsorship/aess_logo_2011_no-text_COLOR_300dpi_registered.png"
-                                alt="IEEE Aerospace and Electronic Systems Society logo"
-                                loading="lazy"
-                                decoding="async"
-                            />
-                        </div>
-                    </div>
-                </section>
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.4rem);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            opacity: 0.75;
+            margin-bottom: 3rem;
+        }
+
+        /* ── Info pills ── */
+        .info-pills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .info-pill {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.22);
+            border-radius: 50px;
+            padding: 0.6rem 1.4rem;
+            backdrop-filter: blur(4px);
+        }
+
+        .info-pill i {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .info-pill span {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        /* ── Past summits ── */
+        .past-section {
+            max-width: 680px;
+            margin: 3.5rem auto 3rem;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        .past-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #8a9aaa;
+            margin-bottom: 0.9rem;
+        }
+
+        .past-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
 
                 <section class="sponsor-tier sponsor-tier-bronze" aria-labelledby="bronze-sponsors">
                     <h3 id="bronze-sponsors">Bronze</h3>
@@ -258,32 +211,44 @@
                 </section>
             </div>
         </div>
-
-        <div class="section">
-            <h2>Contacts</h2>
-            <ul>
-                <li>Cecelia Cheng, 2026 YP Summit Chair: 
-                    <a href="mailto:cecelia.qw.cheng&#64;gmail.com">cecelia.qw.cheng&#64;gmail.com</a>
-                </li>
-                <li>Sam Stone, IEEE Region 1 YP Chair: 
-                    <a href="mailto:stone&#64;ieee.org">stone&#64;ieee.org</a>
-                </li>
-                <li>Alexis Gorgacz, IEEE Region 2 YP Chair: 
-                    <a href="mailto:agorgacz&#64;ieee.org">agorgacz&#64;ieee.org</a>
-                </li>
-                <li>Deyasini Majumdar, WIE Track / IEEE Region 1 WIE Coordinator: 
-                    <a href="mailto:deyasini.majumdar&#64;ieee.org">deyasini.majumdar&#64;ieee.org</a>
-                </li>
-                <li>Maryam Alibeik, WIE Track / IEEE Region 2 WIE Coordinator: 
-                    <a href="mailto:maryamalibeik&#64;ieee.org">maryamalibeik&#64;ieee.org</a>
-                </li>
-            </ul>
-        </div>
-
     </div>
 
-    <div id="site-footer"></div>
+    <div class="hero">
+        <img class="hero-logo" src="resources/IEEEYoungProfessionalsLogoTM_RGB_Stacked.png" alt="IEEE Young Professionals logo">
+        <div>
+            <span class="hero-eyebrow">Coming Soon</span>
+        </div>
+        <h1>IEEE Young Professionals Summit 2027</h1>
+        <p class="hero-subtitle">Details are being finalized &mdash; check back soon.</p>
+        <div class="info-pills">
+            <div class="info-pill">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>August 6–7, 2027</span>
+            </div>
+            <div class="info-pill">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>UNC Charlotte Center City &middot; Charlotte, NC</span>
+            </div>
+        </div>
+    </div>
 
-    <script src="scripts/load-components.js"></script>
+    <div class="past-section">
+        <p class="past-label">Previous Summits</p>
+        <div class="past-links">
+            <a class="past-link" href="/2026/">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                2026 Summit
+            </a>
+            <a class="past-link" href="/2025/index.html">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                2025 Summit
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2027 IEEE Young Professionals Summit
+    </footer>
+
 </body>
 </html>
